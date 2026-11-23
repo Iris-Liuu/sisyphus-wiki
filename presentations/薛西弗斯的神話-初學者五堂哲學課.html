@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>薛西弗斯的神話：給哲學初學者的五堂存在課</title>
+  <style>
+    :root {
+      --bg: #0f141c;
+      --card-bg: rgba(26, 34, 48, 0.85);
+      --card-border: rgba(255, 255, 255, 0.1);
+      --accent: #e5a950;
+      --accent-glow: rgba(229, 169, 80, 0.25);
+      --text-main: #f0f4f8;
+      --text-muted: #94a3b8;
+      --accent-blue: #38bdf8;
+      --accent-red: #f43f5e;
+      --accent-green: #34d399;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans TC", "PingFang TC", sans-serif;
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(circle at 15% 20%, rgba(229, 169, 80, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 85% 80%, rgba(56, 189, 248, 0.08) 0%, transparent 40%);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow-x: hidden;
+      line-height: 1.6;
+    }
+
+    /* Top Progress Bar */
+    .progress-bar-container {
+      width: 100%;
+      height: 4px;
+      background: rgba(255, 255, 255, 0.06);
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 100;
+    }
+    .progress-bar {
+      height: 100%;
+      width: 11%;
+      background: linear-gradient(90deg, var(--accent), var(--accent-blue));
+      transition: width 0.35s ease;
+    }
+
+    /* Header Nav */
+    header {
+      padding: 1.2rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--card-border);
+      backdrop-filter: blur(10px);
+    }
+    .brand {
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .slide-counter {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* Main Container */
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      max-width: 960px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    /* Slide Card */
+    .slide {
+      display: none;
+      width: 100%;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 3rem 2.5rem;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(16px);
+      animation: fadeIn 0.4s ease forwards;
+    }
+    .slide.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(12px) scale(0.99); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 0.3rem 0.8rem;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      background: rgba(229, 169, 80, 0.15);
+      color: var(--accent);
+      border: 1px solid rgba(229, 169, 80, 0.3);
+      margin-bottom: 1.2rem;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      line-height: 1.25;
+      margin-bottom: 1rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #fff;
+    }
+    p {
+      color: #cbd5e1;
+      font-size: 1.05rem;
+      margin-bottom: 1.2rem;
+    }
+
+    .quote-box {
+      border-left: 4px solid var(--accent);
+      padding: 1rem 1.4rem;
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 0 12px 12px 0;
+      margin: 1.5rem 0;
+      font-style: italic;
+      color: #e2e8f0;
+      font-size: 1.1rem;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.2rem;
+      margin: 1.5rem 0;
+    }
+    .mini-card {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 1.2rem;
+      transition: all 0.25s ease;
+    }
+    .mini-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+      background: rgba(255, 255, 255, 0.06);
+    }
+    .mini-card h3 {
+      font-size: 1.15rem;
+      margin-bottom: 0.5rem;
+      color: var(--accent-blue);
+    }
+
+    /* Interactive Thought Experiment */
+    .options-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0.8rem;
+      margin: 1.2rem 0;
+    }
+    .option-btn {
+      text-align: left;
+      padding: 1rem 1.4rem;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--card-border);
+      color: var(--text-main);
+      cursor: pointer;
+      font-size: 1rem;
+      transition: all 0.2s ease;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .option-btn:hover {
+      background: rgba(229, 169, 80, 0.15);
+      border-color: var(--accent);
+    }
+    .feedback-box {
+      margin-top: 1.2rem;
+      padding: 1.2rem;
+      border-radius: 12px;
+      background: rgba(56, 189, 248, 0.1);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      display: none;
+      animation: fadeIn 0.3s ease;
+    }
+
+    /* Viewpoint Toggle */
+    .toggle-nav {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 1.2rem;
+      flex-wrap: wrap;
+    }
+    .toggle-btn {
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--card-border);
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+    .toggle-btn.active {
+      background: var(--accent);
+      color: #000;
+      border-color: var(--accent);
+    }
+    .view-content {
+      background: rgba(0, 0, 0, 0.25);
+      border-radius: 12px;
+      padding: 1.4rem;
+      border: 1px solid var(--card-border);
+      min-height: 140px;
+    }
+
+    /* Accordion / Foldable Quiz */
+    .accordion-item {
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      margin-bottom: 0.8rem;
+      overflow: hidden;
+    }
+    .accordion-header {
+      padding: 1rem 1.2rem;
+      background: rgba(255, 255, 255, 0.04);
+      cursor: pointer;
+      font-weight: 600;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: background 0.2s;
+    }
+    .accordion-header:hover {
+      background: rgba(255, 255, 255, 0.08);
+    }
+    .accordion-body {
+      padding: 1.2rem;
+      background: rgba(0, 0, 0, 0.2);
+      display: none;
+      color: #cbd5e1;
+      border-top: 1px solid var(--card-border);
+    }
+
+    /* Bottom Control Bar */
+    footer {
+      padding: 1.2rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid var(--card-border);
+      backdrop-filter: blur(10px);
+    }
+    .nav-buttons {
+      display: flex;
+      gap: 1rem;
+    }
+    .nav-btn {
+      padding: 0.6rem 1.4rem;
+      border-radius: 10px;
+      border: 1px solid var(--card-border);
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--text-main);
+      cursor: pointer;
+      font-size: 0.95rem;
+      font-weight: 600;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .nav-btn:hover:not(:disabled) {
+      background: var(--accent);
+      color: #000;
+      border-color: var(--accent);
+    }
+    .nav-btn:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+
+    @media (max-width: 640px) {
+      .slide { padding: 2rem 1.2rem; }
+      h1 { font-size: 1.8rem; }
+      h2 { font-size: 1.4rem; }
+      header, footer { padding: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Progress Bar -->
+  <div class="progress-bar-container">
+    <div class="progress-bar" id="progressBar"></div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="brand">
+      <span>⛰️</span>
+      <span>薛西弗斯的神話 · 初學者哲學課</span>
+    </div>
+    <div class="slide-counter" id="slideCounter">1 / 9</div>
+  </header>
+
+  <!-- Main Slide Container -->
+  <main>
+
+    <!-- Slide 1: Cover -->
+    <div class="slide active" data-slide="1">
+      <span class="badge">導言 · INTRO</span>
+      <h1>如果人生注定沒有神聖劇本，<br>我們該如何活下去？</h1>
+      <p style="font-size: 1.15rem; color: #94a3b8;">
+        阿爾貝·卡謬（Albert Camus）《薛西弗斯的神話》是一份給現代人的清醒生存指南。
+        它不灌心靈雞湯，也不教你避世逃避，而是要帶你直面生命最殘酷也最迷人的真相。
+      </p>
+      <div class="quote-box">
+        「真正嚴肅的哲學問題只有一個，那就是自殺。判斷生命是否值得活，就是回答了哲學的基本問題。」
+      </div>
+      <p style="color: var(--accent);">👉 請使用鍵盤方向鍵 [→] 或點擊右下角按鈕開始探索</p>
+    </div>
+
+    <!-- Slide 2: The Collapse of Scenery -->
+    <div class="slide" data-slide="2">
+      <span class="badge">第一課 · 覺醒</span>
+      <h2>舞台布景坍塌的瞬間：什麼是「荒謬」？</h2>
+      <p>想像你每天打卡通勤、上班、吃飯、下班、睡覺……星期一、二、三，日復一日。一切都像發條鐘般順理成章。</p>
+      <p>直到某天在擠滿人的捷運上，你心中突然冒出一個聲音：<strong>「我到底為什麼要這樣過？」</strong></p>
+      
+      <div class="card-grid">
+        <div class="mini-card">
+          <h3>🎭 舞台布景崩塌</h3>
+          <p>熟悉的生活世界突然變得像硬紙板一樣脆弱、陌生與怪異。</p>
+        </div>
+        <div class="mini-card">
+          <h3>🌌 宇宙的頑固沉默</h3>
+          <p>你渴望宇宙給你一個終極理由，但群星與大自然只回以冰冷的沉默。</p>
+        </div>
+        <div class="mini-card">
+          <h3>⚡ 荒謬的本質</h3>
+          <p>荒謬不在於世界，也不在於你，而在於<strong>「渴望意義的人」撞上「沉默世界」時的火花</strong>。</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3: Three Paths -->
+    <div class="slide" data-slide="3">
+      <span class="badge">第二課 · 抉擇</span>
+      <h2>站在荒謬懸崖邊，你有三條路</h2>
+      <p>當你清醒地看見人生沒有上天安排的意義時，常人與哲學家通常會怎麼做？</p>
+
+      <div class="card-grid">
+        <div class="mini-card" style="border-top: 3px solid var(--accent-red);">
+          <h3 style="color: var(--accent-red);">1. 肉體自殺（認輸）</h3>
+          <p><strong>做法</strong>：結束生命。<br>
+          <strong>卡謬點評</strong>：這是向荒謬舉白旗投降！你撕碎考卷退場，但難題並沒有被你解開。</p>
+        </div>
+        <div class="mini-card" style="border-top: 3px solid var(--accent-blue);">
+          <h3 style="color: var(--accent-blue);">2. 哲學性自殺（自欺）</h3>
+          <p><strong>做法</strong>：信上帝或迷信烏托邦（齊克果、胡塞爾）。<br>
+          <strong>卡謬點評</strong>：受不了懸崖邊的寒風，閉上眼睛幻想有神之手接住你，這是「心智閹割」。</p>
+        </div>
+        <div class="mini-card" style="border-top: 3px solid var(--accent-green);">
+          <h3 style="color: var(--accent-green);">3. 清醒反抗（英雄之路）</h3>
+          <p><strong>做法</strong>：雙腳站穩在懸崖邊，睜大眼睛盯著深淵，熱烈活在當下！<br>
+          <strong>卡謬點評</strong>：不求彼岸、不求神蹟，用一生的清醒給命運一記耳光！</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 4: Interactive Thought Experiment -->
+    <div class="slide" data-slide="4">
+      <span class="badge">互動體驗 · 思想實驗室</span>
+      <h2>思想實驗：如果你深陷徒勞無功的困境</h2>
+      <p>你在公司接手了一個毫無前途、重複乏味、上級隨時可能喊停的專案，但你暫時無法離職。你會怎麼面對？</p>
+      
+      <div class="options-grid">
+        <button class="option-btn" onclick="showFeedback('A')">
+          <span>選項 A：祈禱並催眠自己「這一定是老天爺給我的神聖考驗，背後有大意義」</span>
+          <span>👉</span>
+        </button>
+        <button class="option-btn" onclick="showFeedback('B')">
+          <span>選項 B：覺得一切都毫無意義，徹底躺平擺爛或自暴自棄</span>
+          <span>👉</span>
+        </button>
+        <button class="option-btn" onclick="showFeedback('C')">
+          <span>選項 C：明知這專案成不了大事，但把每一行代碼或文案雕琢得精湛無比，當作自己意志的展示</span>
+          <span>👉</span>
+        </button>
+      </div>
+
+      <div class="feedback-box" id="feedbackBox"></div>
+    </div>
+
+    <!-- Slide 5: Multi-Thinker Comparison Toggle -->
+    <div class="slide" data-slide="5">
+      <span class="badge">第三課 · 觀點交鋒</span>
+      <h2>群雄對決：面對「推石頭」的徒勞宿命</h2>
+      <p>點擊下方按鈕，看看各派哲學家會給推石頭的薛西弗斯什麼建議：</p>
+
+      <div class="toggle-nav">
+        <button class="toggle-btn active" onclick="switchView('camus', this)">阿爾貝·卡謬</button>
+        <button class="toggle-btn" onclick="switchView('kierkegaard', this)">齊克果（信仰派）</button>
+        <button class="toggle-btn" onclick="switchView('husserl', this)">胡塞爾（現象學）</button>
+        <button class="toggle-btn" onclick="switchView('nihilism', this)">虛無主義者</button>
+      </div>
+
+      <div class="view-content" id="viewContent">
+        <h3 style="color: var(--accent); margin-bottom: 0.5rem;">卡謬的主張：蔑視諸神，享受奮鬥</h3>
+        <p>「別指望石頭哪天會留在山頂。當你走下山腳時，看著陽光照亮這片大地，你親手觸碰這顆屬於你的巨石。你的清醒就是對諸神最殘酷的嘲諷——推向頂峰的奮鬥本身，就足以充實人心。」</p>
+      </div>
+    </div>
+
+    <!-- Slide 6: Absurd Freedom and Passion -->
+    <div class="slide" data-slide="6">
+      <span class="badge">第四課 · 實踐法則</span>
+      <h2>荒謬人的生活特權：自由與熱情</h2>
+      <p>沒有天堂的考評表，我們是不是就可以隨波逐流？卡謬給出了顛覆性的回答：</p>
+
+      <div class="card-grid">
+        <div class="mini-card">
+          <h3 style="color: var(--accent);">🕊️ 荒謬自由</h3>
+          <p>不再被「我一生必須達成某個偉大目標」綁架。就像死刑犯在黎明前看日出，每一秒當下都無比純粹。</p>
+        </div>
+        <div class="mini-card">
+          <h3 style="color: var(--accent);">🔥 數量勝於品質</h3>
+          <p>不是及時行樂，而是<strong>意識的飽滿度</strong>。活得最多的，不是活了一百年卻麻木度日的人，而是每一刻都極致清醒的人。</p>
+        </div>
+        <div class="mini-card">
+          <h3 style="color: var(--accent);">🎭 荒謬人典範</h3>
+          <p><strong>演員</strong>在兩小時內全心活過一個靈魂；<strong>創作者</strong>明知畫作終會褪色，依然揮灑顏料，以創造向虛無宣戰。</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 7: Sisyphus Happy -->
+    <div class="slide" data-slide="7">
+      <span class="badge">第五課 · 終極意象</span>
+      <h2>我們必須想像薛西弗斯是快樂的</h2>
+      <p>希臘神話中，薛西弗斯因熱愛塵世、藐視諸神與死神，被判永遠將巨石推上山頂，巨石又隨即滾落。</p>
+      
+      <div class="quote-box" style="font-size: 1.2rem; border-color: var(--accent-green);">
+        「這個神話之所以悲壯，是因為它的主人公具有清醒的意識。如果他每走一步都有成功的希望支持著他，他的痛苦何在？」
+      </div>
+
+      <p>卡謬定格在**薛西弗斯轉身走下山腳的那幾分鐘**。他雙手沾滿石屑，額頭淌著汗水，但他知道：這顆巨石是他的，這座山是他的。沒有任何一個神明能再令他屈服。</p>
+      <p style="text-align: right; font-weight: 700; color: var(--accent); font-size: 1.2rem;">
+        —— 一切皆好。他就是命運的主人。
+      </p>
+    </div>
+
+    <!-- Slide 8: Interactive Beginner FAQ -->
+    <div class="slide" data-slide="8">
+      <span class="badge">互動檢驗 · 迷思破解</span>
+      <h2>初學者快問快答（點擊題目看卡謬的回答）</h2>
+
+      <div class="accordion-item">
+        <div class="accordion-header" onclick="toggleAccordion(this)">
+          <span>Q1: 人生沒有意義，難道不是直接去自殺最快解脫嗎？</span>
+          <span>▼</span>
+        </div>
+        <div class="accordion-body">
+          <strong>卡謬回答：</strong>自殺是向荒謬舉手投降。荒謬誕生於「你」與「世界」的對撞；你若死了，對抗就結束了，命運大獲全勝。真正的勇者會活下去，用「清醒地活著」來持續打臉這冷漠的世界！
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header" onclick="toggleAccordion(this)">
+          <span>Q2: 這跟虛無主義（覺得做什麼都無所謂、一切都是空）有什麼差？</span>
+          <span>▼</span>
+        </div>
+        <div class="accordion-body">
+          <strong>卡謬回答：</strong>差得遠了！虛無主義因為「沒有永恆意義」而走向絕望與厭世；荒謬主義卻因為「沒有永恆枷鎖」而走向熱烈與反抗！每一杯熱咖啡、每一次真誠的對話，因為短暫，所以才無比珍貴。
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header" onclick="toggleAccordion(this)">
+          <span>Q3: 每天上班推巨石那麼累，我怎麼可能像薛西弗斯一樣快樂？</span>
+          <span>▼</span>
+        </div>
+        <div class="accordion-body">
+          <strong>卡謬回答：</strong>痛苦往往來自於你幻想「哪天老闆會發大慈悲，或者只要我熬過去就能一勞永逸」。當你認清生活的本質就是推石頭，放下虛妄的委屈感，專注於當下你的呼吸、技巧與每一次使力，你便奪回了生活的支配權。
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 9: Conclusion -->
+    <div class="slide" data-slide="9">
+      <span class="badge">結語 · 實踐</span>
+      <h1>明天早晨鬧鐘響起時，<br>你就是薛西弗斯。</h1>
+      <p style="font-size: 1.15rem;">
+        荒謬不是哲學家書房裡的文字遊戲，而是你我每天清晨面對鏡子時的抉擇。
+      </p>
+      <div class="card-grid" style="margin-top: 1.5rem;">
+        <div class="mini-card" style="text-align: center;">
+          <h3 style="color: var(--accent-red);">不逃跑</h3>
+          <p>拒絕物理與精神的自殺</p>
+        </div>
+        <div class="mini-card" style="text-align: center;">
+          <h3 style="color: var(--accent-blue);">不盲從</h3>
+          <p>看透生活的重複與局限</p>
+        </div>
+        <div class="mini-card" style="text-align: center;">
+          <h3 style="color: var(--accent-green);">熱烈反抗</h3>
+          <p>把日常的每一天推向巔峰</p>
+        </div>
+      </div>
+      <p style="text-align: center; margin-top: 2rem; color: var(--text-muted); font-size: 0.95rem;">
+        🎉 恭喜完成《薛西弗斯的神話》初學者導覽！回到 Wiki 閱讀更深度的概念與文獻對照。
+      </p>
+    </div>
+
+  </main>
+
+  <!-- Footer Nav -->
+  <footer>
+    <div style="font-size: 0.85rem; color: var(--text-muted);">
+      提示：可用鍵盤方向鍵 <kbd>←</kbd> / <kbd>→</kbd> 切換
+    </div>
+    <div class="nav-buttons">
+      <button class="nav-btn" id="prevBtn" onclick="prevSlide()" disabled>← 上一頁</button>
+      <button class="nav-btn" id="nextBtn" onclick="nextSlide()">下一頁 →</button>
+    </div>
+  </footer>
+
+  <script>
+    let currentSlide = 1;
+    const totalSlides = 9;
+
+    function updateSlide() {
+      document.querySelectorAll('.slide').forEach(slide => {
+        slide.classList.remove('active');
+        if (parseInt(slide.getAttribute('data-slide')) === currentSlide) {
+          slide.classList.add('active');
+        }
+      });
+
+      document.getElementById('slideCounter').innerText = `${currentSlide} / ${totalSlides}`;
+      document.getElementById('progressBar').style.width = `${(currentSlide / totalSlides) * 100}%`;
+
+      document.getElementById('prevBtn').disabled = (currentSlide === 1);
+      document.getElementById('nextBtn').disabled = (currentSlide === totalSlides);
+    }
+
+    function nextSlide() {
+      if (currentSlide < totalSlides) {
+        currentSlide++;
+        updateSlide();
+      }
+    }
+
+    function prevSlide() {
+      if (currentSlide > 1) {
+        currentSlide--;
+        updateSlide();
+      }
+    }
+
+    // Keyboard Navigation
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === ' ') {
+        nextSlide();
+      } else if (e.key === 'ArrowLeft') {
+        prevSlide();
+      }
+    });
+
+    // Slide 4 Thought Experiment
+    function showFeedback(choice) {
+      const fb = document.getElementById('feedbackBox');
+      fb.style.display = 'block';
+      if (choice === 'A') {
+        fb.innerHTML = `<h4 style="color: var(--accent-blue); margin-bottom: 0.3rem;">齊克果式選擇（哲學性自殺）：</h4>
+        <p style="margin: 0;">你選擇了「跳躍」！為了安撫受挫的心靈，你編織了一個冥冥之中的神聖劇本。卡謬會搖搖頭告訴你：這是在用虛妄的幻想催眠自己，你扼殺了自己的清醒理智。</p>`;
+      } else if (choice === 'B') {
+        fb.innerHTML = `<h4 style="color: var(--accent-red); margin-bottom: 0.3rem;">虛無主義式選擇（認輸妥協）：</h4>
+        <p style="margin: 0;">你走向了消極虛無！既然沒有意義，何必認真？卡謬說：這正是最軟弱的誤解。宇宙的沉默不該成為你懶惰與崩潰的藉口，你把支配權拱手讓給了荒謬。</p>`;
+      } else if (choice === 'C') {
+        fb.innerHTML = `<h4 style="color: var(--accent-green); margin-bottom: 0.3rem;">卡謬式選擇（清醒反抗）：</h4>
+        <p style="margin: 0;">🎉 滿分！你正是當代的薛西弗斯！你清楚知道專案可能徒勞無功，但你依然把熱情燃燒在每一個當下的細節中。這不是為了討好老闆，而是向冷酷的世界宣示：我的專業與熱情，無人能奪走！</p>`;
+      }
+    }
+
+    // Slide 5 Thinker Viewpoint Switcher
+    const viewpoints = {
+      camus: {
+        title: "卡謬的主張：蔑視諸神，享受奮鬥",
+        color: "var(--accent)",
+        desc: "「別指望石頭哪天會留在山頂。當你走下山腳時，看著陽光照亮這片大地，你親手觸碰這顆屬於你的巨石。你的清醒就是對諸神最殘酷的嘲諷——推向頂峰的奮鬥本身，就足以充實人心。」"
+      },
+      kierkegaard: {
+        title: "齊克果的主張：把徒勞化作信仰的跳躍",
+        color: "var(--accent-blue)",
+        desc: "「既然凡人推不上山頂，這正證明了人力的有限！我們應當承認自己的卑微，在不可思議的荒謬中向神呼求，相信神在彼岸預備了超乎常理的奇蹟。」（卡謬批判：這是典型的哲學性自殺）"
+      },
+      husserl: {
+        title: "胡塞爾的主張：描述推石頭的純粹本質",
+        color: "var(--accent-green)",
+        desc: "「別去爭論神存在與否了！讓我們專注於分析：手握巨石時的觸感、肌肉收縮的本質、重力與空間的幾何關係……」（卡謬批判：描述很好，但別偷偷在石頭後面安插一個永恆本質的神殿）"
+      },
+      nihilism: {
+        title: "虛無主義者的主張：反正會掉下來，推它幹嘛？",
+        color: "var(--accent-red)",
+        desc: "「既然終點是徒勞，推石頭就是在自討苦吃。躺在山腳發呆或直接撞死在石頭上算了。」（卡謬批判：這是將『無終極意義』錯誤等同於『當下無價值』的懦弱悲觀）"
+      }
+    };
+
+    function switchView(thinker, btn) {
+      document.querySelectorAll('.toggle-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const v = viewpoints[thinker];
+      const container = document.getElementById('viewContent');
+      container.innerHTML = `
+        <h3 style="color: ${v.color}; margin-bottom: 0.5rem;">${v.title}</h3>
+        <p>${v.desc}</p>
+      `;
+    }
+
+    // Slide 8 Accordion
+    function toggleAccordion(header) {
+      const body = header.nextElementSibling;
+      const isExpanded = body.style.display === 'block';
+      document.querySelectorAll('.accordion-body').forEach(b => b.style.display = 'none');
+      document.querySelectorAll('.accordion-header span:last-child').forEach(s => s.innerText = '▼');
+      if (!isExpanded) {
+        body.style.display = 'block';
+        header.querySelector('span:last-child').innerText = '▲';
+      }
+    }
+  </script>
+</body>
+</html>

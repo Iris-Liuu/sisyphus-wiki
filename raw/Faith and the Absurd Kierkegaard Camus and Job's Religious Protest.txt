@@ -1,0 +1,1073 @@
+Faith and the Absurd: Kierkegaard, 
+Camus and Job’s Religious Protest
+N. Verbin
+Tel Aviv University; nverbin@tauex.tau.ac.il
+ Abstract
+Religious protest, such as the protest that Job expresses, reveals the manners in 
+which believers experience the absurd while hanging on to God. The purpose 
+of this article is to explore the “grammar” of this paradoxical faith stance by 
+bringing Kierkegaard and Camus to bear upon it, and thereby to show the “family 
+resemblance” between Job, Camus’s “absurd man,” and the Kierkegaardian 
+believer. I begin with a discussion of experiences of the absurd that give rise to 
+religious protest. I then turn to Kierkegaard to explore the manners in which “faith’s 
+thought” renders the “experience of the absurd” a religious one, while pushing the 
+believer further into the absurd. I end with a discussion of Job as an absurd rebel 
+in Camus’s sense.
+ Keywords
+Kierkegaard, Camus, Job, evil, suffering, protest, faith
+ Introduction
+Religious protest, voiced in various sources and forms, from the book of Job 
+to Elie Wiesel, expresses the manner in which believers experience the absurd 
+while hanging on to God. This article explores the “grammar” of this seemingly 
+paradoxical faith stance, particularly as it is expressed by Job. It does so by exploring 
+Job’s relation to various “friends” who share some features of his experience and 
+© The Author(s), 2024. Published by Cambridge University Press on behalf of the President and Fellows of Harvard College. This is 
+an Open Access article, distributed under the terms of the Creative Commons Attribution licence (http://creativecommons.org/licenses/
+by/4.0/), which permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited.
+HTR 117:2 (2024) 293–316
+https://doi.org/10.1017/S0017816024000051 Published online by Cambridge University Press
+294
+HARVARD THEOLOGICAL REVIEW
+outlook or inhabit the same “logical space” that he inhabits, and bringing him into 
+conversation with them, be they his contemporaries or otherwise, believers or 
+nonbelievers, Jews or Christians.
+The article’s philosophical presuppositions are Wittgensteinian. I assume that 
+faith is a “family resemblance” concept; I assume that “faith” may show itself in a 
+variety of different manners, which do not have a shared essence and which are not 
+all susceptible to analysis in propositional terms, or in nonpropositional terms such 
+as through the notions of “love” or “trust.” Moreover, I assume that an appropriate 
+methodology for making perspicuous the “grammar” of faith, or the “grammar” 
+of certain manners in which it shows itself, is by “assembling reminders” and 
+“connecting links.” It is by considering certain manners in which faith shows itself 
+together with or in comparison with others, that various similarities and differences 
+can be made perspicuous and the “logic” of the phenomenon or phenomena in 
+question can be brought to light.1 
+In order to shed light on the “grammar” of religious protest, I purport to engage 
+with various experiences of the absurd, both religious and nonreligious, and with 
+the manners in which they show themselves. I shall reflect on those who protest 
+when experiencing the absurd as well as on those who acquiesce, on those for 
+whom God is part of their absurd suffering, on those whose world is devoid of a 
+divine master, and on those for whom the presence or absence of a divine master 
+makes no difference. To reiterate, I maintain that it is by placing them one next 
+to the other, discussing each of them in relation to the others, that a “perspicuous 
+representation” of the “grammar” of faith in general and of protesting believers’ 
+faith in particular can be provided.2 
+1 For Wittgenstein’s comments on “family resemblance” concepts and on “games,” see particularly 
+Ludwig Wittgenstein, Philosophical Investigations (trans. G. E. M. Anscombe; 3rd ed.; New York: 
+Macmillan, 1968) §65–§71. For Wittgenstein’s comments on “perspicuous representation,” on 
+“assembling reminders” and “connecting links,” and their use in philosophy and in religion, see 
+particularly §122, §126, §127; see also Ludwig Wittgenstein, “Remarks on Frazer’s Golden Bough,” 
+in Philosophical Occasions 1912–1951 (ed. James C. Klagge and Alfred Nordmann; Indianapolis: 
+Hackett, 1993) 119–54. For a focused discussion and evaluation of “perspicuous representation” in 
+the study of religion, see, e.g., Judith Genova, Wittgenstein: A Way of Seeing (New York: Routledge, 
+1995); B. R. Clack, Wittgenstein, Frazer and Religion (New York: Palgrave, 1999) 53–78.
+2While much was written about religious protest by rabbinical scholars and by Shoah scholars, 
+there is little discussion of its philosophical significance, particularly as it pertains to discussions 
+concerning the nature of faith. Notable exceptions are Menachem Fisch and Avi Sagi. See particularly 
+Menachem Fisch, Covenant of Confrontation: A Study of Non-Submissive Religiosity in Rabbinic 
+Literature (Ramat Gan: Bar Ilan University Press, 2019) (Hebrew); Avi Sagi and Nir Sagi, “Religious 
+Protest and Religious Loyalty,” European Journal for Philosophy of Religion 12.2 (2020) 7–36. See 
+also N. Verbin, “Three Knights of Faith on Job’s Suffering and Its Defeat,” International Journal for 
+Philosophy and Theology 78 (2017) 382–95. For a discussion of various literary sources from the 
+Bible to Wiesel, which express religious protest, see Anson Laytner, Arguing with God: A Jewish 
+Tradition (Northvale, NJ: Jason Aronson, 1998). For a helpful exposition of protest in rabbinical 
+literature, see, e.g., David Charles Kraemer, Responses to Suffering in Classical Rabbinic Literature 
+(New York: Oxford University Press, 1995). For a theological attempt to incorporate the experience 
+of “divine abuse” into one’s theology and liturgy, see David R. Blumenthal, Facing the Abusing God: 
+https://doi.org/10.1017/S0017816024000051 Published online by Cambridge University Press
+N. VERBIN
+295
+The article has three parts. I begin with a brief discussion of different experiences 
+of the “absurd.” I distinguish between Qoheleth’s nihilism and Job’s religious 
+protest, characterizing both as “experiences of the absurd” in Camus’s sense. In the 
+second part, I engage with Kierkegaard’s Discourses in order to shed light on one 
+specific manner in which “God,” or “faith’s thought,” does not undo the absurd. 
+I show that contrary to what Camus has supposed, “faith’s thought” pushes the 
+believer further into the absurd, while at the same time adding another aspect to 
+it—the eternal. I end, in the third part, with a discussion of Job as an “absurd man” 
+in Camus’s sense, bringing to light the “family resemblance” between him and 
+the other “reminders.” I argue that Job is well aware of the absurd, yet “without 
+resignation,” and, unlike the Kierkegaardian absurd sufferer, opts for constant 
+confrontation and revolt—above all, revolt against God. 
+ Experiences of the Absurd
+After losing everything that he holds dear, his property, his social status, and his 
+children, and having been afflicted with painful sores from head to toe, Job is in 
+turmoil: “Sighing has become my daily food; my groans pour out like water. What 
+I feared has come upon me; what I dreaded has happened to me. I have no peace, 
+no quietness; I have no rest, but only turmoil” (Job 3:24–26).3 
+Job, however, does not merely suffer pain, disease, humiliation, and the loss 
+of everything that he holds dear. His suffering and loss turn him into a stranger 
+to his life; he becomes an alien in his world. The hinge around which his life was 
+arranged, namely, the existence of a divine and just governance governing the 
+cosmos and everything that has its life within it, collapses. Job loses his grip on 
+his life. Pleading to his friends he exclaims: “ ‘Teach me and I will be quiet; show 
+me where I have been wrong’ ” (Job 6:24). Pleading to God he cries out: “Do not 
+declare me guilty, but tell me what charges you have against me. Does it please 
+you to oppress me, to spurn the work of your hands, while you smile on the plans 
+of the wicked?” (Job 10:2–3).
+Camus characterizes the “divorce between man and his life, the actor and his 
+setting” as the feeling of absurdity (Camus 1979, 13).4 According to Camus, it is 
+born out of our frustrated expectations for happiness, meaning, and understanding: 
+“Man stands face to face with the irrational. He feels within him his longing for 
+A Theology of Protest (Louisville: Westminster John Knox, 1993). For a philosophical analysis of the 
+experience of “divine abuse” as it is represented in the book of Job, see N. Verbin, Divinely Abused: 
+A Philosophical Perspective on Job and His Kin (London: Continuum, 2010). For a discussion of 
+protest as a response to the Shoah, see, e.g., Zachary Braiterman, (God) after Auschwitz: Tradition 
+and Change in Post-Holocaust Jewish Thought (Princeton: Princeton University Press, 1998).
+3Unless otherwise indicated, all biblical quotes from Job are from The Holy Bible: New 
+International Version (Grand Rapids: Zondervan, 2017).
+4All Camus 1979 references are to Albert Camus, The Myth of Sisyphus (trans. Justin O’Brien; 
+Harmondsworth: Penguin, 1979), and appear in parentheses within the text.
+https://doi.org/10.1017/S0017816024000051 Published online by Cambridge University Press
+296
+HARVARD THEOLOGICAL REVIEW
+happiness and for reason. The absurd is born of this confrontation between the 
+human need and the unreasonable silence of the world” (Camus 1979, 31–32). 
+Job comes face-to-face with the irrational, with the frustration of his expectations, 
+with the breakdown of his worldview. Confronting the world’s silent response to 
+his cry for meaning, his understanding reaches a standstill. Not only does he suffer 
+pain and loss, he also experiences them as absurd.
+Unlike Job’s estrangement from his life, which has to do with his losing 
+everything that he holds dear, Qoheleth’s estrangement from his life seems to have 
+to do with his having everything that one could hold dear. Qoheleth has riches, 
+property, concubines, social status, and even wisdom; he has everything that a 
+man of his age could possibly desire. Qoheleth, however, finds no joy in it: “Then 
+I considered all that my hands had done and the toil I had spent in doing it, and 
+again, all was vanity and a chasing after wind, and there was nothing to be gained 
+under the sun” (Eccl 2:11).5 
+Nothing has intrinsic meaning for Qoheleth; nothing has value; everything is 
+wearisome: “All things are wearisome; more than one can express; the eye is not 
+satisfied with seeing, or the ear filled with hearing. What has been is what will be, 
+and what has been done is what will be done; there is nothing new under the sun” 
+(Eccl 1:8–9).
+It appears that for Qoheleth the “chain of daily gestures is broken” and the heart 
+“vainly seeks the link that will connect it again” (Camus 1979, 19). Camus describes 
+the weariness, the estrangement from life, and the feeling of life’s absurdity with 
+the following words, reminiscent of Qoheleth’s description of the weariness:
+It happens that the stage-sets collapse. Rising, tram, four hours in the office 
+or factory, meal, tram, four hours of work, meal, sleep and Monday, Tuesday, 
+Wednesday, Thursday, Friday and Saturday, according to the same rhythm—
+this path is easily followed most of the time. But one day the “why” arises 
+and everything begins in that weariness. (Camus 1979, 19)6
+If we consider Job’s and Qoheleth’s suffering through Camus, we may conclude 
+that the feeling of the absurd lies at the heart of our human existence, as Camus 
+insists. If one can be alienated from one’s life regardless of whether one experiences 
+fortune or misfortune, regardless of whether one has been blessed or cursed, then 
+the feeling of the absurd can awaken at any moment; and, as Camus maintains, 
+and as a consideration of Job and of Qoheleth reveals, no cure for it is to be found 
+at the level of life’s contingency, of one’s fortunes or misfortunes, at the level of 
+what Kierkegaard calls the aesthetic. 
+5All quotes from Ecclesiastes are from The New Revised Standard Version (Peabody, MA: 
+Hendrickson, 1989). My reasons for shifting to the NRSV’s translation of Ecclesiastes are aesthetic.
+6The similarities between Qoheleth and Camus have been noted by various scholars. See, e.g., 
+John A. Cruickshank, Albert Camus and the Literature on Revolt (London: Oxford University Press, 
+1959); John Weightman, “Review of Albert Camus, A Life, by Olivier Todd,” New York Review of 
+Books, 15 January 1998. Fox goes as far as to argue that הבל in Qoheleth is to be translated as 
+“absurd”; see Michael V. Fox, “On הבל in Qoheleth: A Reply to Mark Sneed,” JBL 138 (2019) 559.
+https://doi.org/10.1017/S0017816024000051 Published online by Cambridge University Press
+N. VERBIN
+297
+Does God provide a cure for the absurd? Camus views the leap into faith, into 
+God, as a false exit from the absurd, together with suicide and hope (Camus 1979, 
+38). He views the “cure” that Kierkegaard presents as the undoing of the absurd, 
+as an escape from “the antinomy of the human condition”; he accuses Kierkegaard 
+of mutilating his soul in the process (Camus 1979, 41).7 
+Contrary to what Camus supposes, however, God does not provide a way out 
+from the absurd, either for Job or for Qoheleth, or for the Kierkegaardian believer. 
+Qoheleth’s God does not undo the weariness that afflicts him and alienates 
+him from his life, nor does he provide an answer to the “why” that renders 
+the world meaningful and comprehensible. Indeed, for Qoheleth, the world’s 
+incomprehensibility is enhanced by its opaque and distant divine master.8 
+For Job, God’s presence turns the feeling of the absurd into a cry of protest that 
+is voiced against God: “know that God has wronged me and drawn his net around 
+me. Though I cry, ‘Violence!’ I get no response; though I call for help, there is 
+no justice” (Job 19:6–7). Job’s God does not undo “the antinomy of the human 
+condition,” nor does he provide consolation that renders life more bearable. Rather, 
+Job’s God drives the absurd even deeper, being himself the central feature of the 
+antinomy that constitutes Job’s absurd suffering.
+Job experiences God as an abuser.9 It comes as no surprise that, as such, God 
+provides Job neither an escape from the absurd nor a cure for it: “I cry out to you, 
+God, but you do not answer; I stand up but you merely look at me. You turn on me 
+ruthlessly; with the might of your hand you attack me. . . . I know you will bring 
+me down to death, the place appointed for all the living” (Job 30:20–23).
+Jewish sources, from Job to Wiesel, are replete with similar examples of absurd 
+religious suffering and protest. We meet God as the central building block of the 
+believer’s experience of the absurd in Bereshit Rabbah, for example, an ancient 
+rabbinical homiletical interpretation to the book of Genesis. There, we read the 
+following commentary on Cain’s murder of Abel:
+Rabbi Shimeon bar Yoḥai said: It is difficult to say this thing, and the mouth 
+cannot utter it plainly. Think of two athletes wrestling before the king; had 
+the king wished, he could have separated them. But he did not so desire, and 
+one overcame the other and killed him; he cried out “Who shall demand my 
+justice before the king.” Even so, The voice of thy brother’s blood cries out 
+against me.10
+Rabbi Shimeon bar Yoḥai, a paradigmatic believer, traditionally believed to have 
+written the Book of Splendor (The Zohar), is here comparing Cain’s murder of Abel 
+7For more on Camus’s understanding and critique of Kierkegaard, see the next section.
+8Fox emphasizes this point; see Michael V. Fox, Qoheleth and His Contradictions (Sheffield: 
+Almond Press, 1989).
+9For more on Job’s abusive God, see Verbin, Divinely Abused. 
+10 Bereshit Rabbah 22. My translation and my italics, based on Midrash Rabbah, Genesis (trans. 
+H. Freedman; 10 vols. (London: Soncino, 1939) 1:189. 
+https://doi.org/10.1017/S0017816024000051 Published online by Cambridge University Press
+298
+HARVARD THEOLOGICAL REVIEW
+to a gladiator’s assassination of his opponent before the earthly king, who did not 
+desire to intervene. Genesis 4:10, which literally reads “your brother’s blood cries 
+out to me from the ground!” is interpreted in this bold exegesis as stating “your 
+brother’s blood cries out against me from the ground!” The spilled blood of the 
+victim does not cry out to the king for justice; rather, it cries out against the king 
+for the lack of justice. Rabbi Shimeon bar Yoḥai points the accusing finger at God, 
+for moral evil, depicting God as the one who has orchestrated the immoral scene 
+and has allowed it to come to its evil completion. 
+For Rabbi Shimeon bar Yoḥai, as for Job, God does not provide a way out of 
+life’s seeming absurdity, from the “antinomy of the human condition,” from our 
+frustrated expectations for happiness, meaning, and understanding. Rather, God 
+is part of the problem, indeed the heart of the problem. God enhances the absurd. 
+How may we understand a religiosity such as Job’s or Rabbi Shimeon bar 
+Yoḥai’s? In the next sections, I shall reflect on both Kierkegaard and Camus to 
+shed light on it. 
+ Absurd Faith
+Camus notes that Kierkegaard begins with the absurd, with “the chaos of an 
+experience divested of its setting and relegated to its original incoherence.” He 
+states: “Kierkegaard, for a part of his existence at least, does more than discover 
+the absurd, he lives it” (Camus 1979, 30). As we have seen, however, Camus also 
+maintains that Kierkegaard escapes it: “Kierkegaard wants to be cured. To be cured 
+is his frenzied wish and it runs throughout his whole journal. The entire effort of his 
+intelligence is to escape the antinomy of the human condition” (Camus 1979, 41). 
+Camus argues that Kierkegaard deifies the absurd and, thereby, blinds himself to it:
+For him, too, antinomy and paradox become criteria of the religious. Thus the 
+very thing that led to despair of the meaning and depth of this life now gives 
+it its truth and its clarity. . . . If he substitutes for his cry of revolt a frantic 
+adherence, at once he is led to blind himself to the absurd which hitherto 
+enlightened him and to deify the only certainty he henceforth possesses, the 
+irrational. . . . The entire effort of his intelligence is to escape the antinomy 
+of the human condition. (Camus 1979, 40–41)11 
+He accuses Kierkegaard of mutilating his soul in the process of escaping this 
+antinomy (Camus 1979, 41). 
+Contrary to what Camus supposes, and contrary to what many of his and 
+Kierkegaard’s commentators suppose, Kierkegaardian faith does not escape the 
+absurd.12 It presupposes it, enhances it, and ends with it; at the same time, it also 
+11 Underlying this critique is Camus’s conflation of Kierkegaard’s attitude toward protest with 
+Kierkegaard’s attitude toward the absurd. See section 3 of this article.
+12 While much has been written about the role of the “absurd” in Kierkegaard (particularly in Fear 
+and Trembling, Philosophical Fragments, and Concluding Unscientific Postscript), the discussion 
+revolves around the epistemology of the “absurd,” i.e., whether the Kierkegaardian believer’s faith 
+https://doi.org/10.1017/S0017816024000051 Published online by Cambridge University Press
+N. VERBIN
+299
+adds another dimension to it that defeats it. My purpose in what follows, however, 
+is neither to provide a comprehensive argument against Camus’s reading of 
+Kierkegaard nor to provide a comprehensive argument against his and Kierkegaard’s 
+interpreters’ understanding of their relation.13 Rather, my purpose is to use 
+Kierkegaard to shed light on the “grammar” of “absurd faith,” on the “grammar” 
+of “absurd believers,” whether they protest, like Job and Rabbi Shimeon Bar Yoḥai, 
+is irrational, a-rational, rational, or trans-rational. Such issues as the experience of the absurd, in 
+Camus’s sense, absurd suffering, God’s role in the experience of the absurd, and the manners in 
+which faith defeats absurd suffering without undoing it—issues that are prominent in Kierkegaard’s 
+Discourses—have received little attention in the secondary literature. This section will fill this lacuna. 
+For irrationalist construals of the “absurd,” which emphasize the clash between faith and reason 
+in Kierkegaard’s writings, see, e.g., Alastair Hannay, Kierkegaard (London: Routledge and Kegan 
+Paul, 1982); idem “Commitment and Paradox,” in Kierkegaard and Philosophy: Selected Essays (ed. 
+Alastair Hannay; London: Routledge, 2003) 126–36. For an influential a-rationalist construal, see, 
+e.g., Alasdair MacIntyre, After Virtue (2nd ed.; Notre Dame: Notre Dame University Press, 1984). 
+Emphasizing the incommensurability between the aesthetic sphere and the ethical, MacIntyre has 
+famously insisted that the transition from one to the other cannot be perceived as a reasoned one; 
+rather it involves entering into a sphere in which reasons of a particular kind can be used. As such, 
+his account is best described as a-rational. 
+The most prominent representative of the opposing camp, whose proponents deny that faith is 
+irrational, is Stephen Evans. His position can be characterized as trans-rational. Denying that for 
+Kierkegaard the Incarnation involves a formal, logical contradiction, Evans maintains instead that 
+in faith, human reason recognizes its limits and partially overcomes them. See, e.g., C. Stephen 
+Evans, Kierkegaard’s ‘Fragments’ and ‘Postscript’: The Religious Philosophy of Johannes Climacus 
+(Atlantic Highlands, NJ: Humanities Press, 1983); idem, “Is Kierkegaard an Irrationalist? Reason, 
+Paradox and Faith,” Religious Studies 25 (1989) 347–62; idem Passionate Reason: Making Sense 
+of Kierkegaard’s Philosophical Fragments (Bloomington: Indiana University Press, 1992) 96–118; 
+idem, Faith beyond Reason: A Kierkegaardian Account (Grand Rapids: Eerdmans, 1998); idem, 
+“Kierkegaard and the Limits of Reason: Can There Be a Responsible Fideism,” Revista Portuguesa 
+de Filosofia 64 (2008) 1021–35; idem, “Faith and Reason in Kierkegaard’s Concluding Unscientific 
+Postscript,” in Kierkegaard’s “Concluding Unscientific Postscript”: A Critical Guide (ed. Rich 
+Anthony Furtak; Cambridge: Cambridge University Press, 2010) 204–18. For other influential 
+accounts that argue against an irrationalist construal of the “absurd” in Kierkegaard, see, e.g., M. 
+Jamie Ferreira, “The Point Outside the World: Kierkegaard and Wittgenstein on Nonsense, Paradox 
+and Religion,” Religious Studies 30 (1994) 29–44; John Lippitt and Daniel Hutto, “Making Sense 
+of Nonsense: Kierkegaard and Wittgenstein,” Proceedings of the Aristotelian Society: New Series 
+98 (1998) 263–86; Anthony Rudd, “Reason in Ethics: MacIntyre and Kierkegaard,” in Kierkegaard 
+after MacIntyre: Essays on Freedom, Narrative, and Virtue (ed. John J. Davenport and Anthony 
+Rudd; Chicago: Open Court, 2001) 131–50.
+13 For an emphasis on the differences between Kierkegaard and Camus, see, e.g., Sheela Pawar, 
+Trusting Others, Trusting God: Concepts of Belief, Faith and Rationality (Farnham, Surrey, UK: 
+Ashgate, 2009) 151–56. For a helpful account of some of the similarities between Kierkegaard 
+and Camus, see Daniel Berthold, “Kierkegaard and Camus: Either/Or?,” International Journal of 
+Philosophy of Religion 73 (2013) 137–50. For a careful consideration of the relation between Camus 
+and Kierkegaard, which mostly emphasizes the differences between them, see Leo Stan, “Albert 
+Camus: Walled within God,” in Kierkegaard and Existentialism (ed. Jon Stewart; Kierkegaard 
+Research: Sources, Reception and Resources 9; London: Routledge, 2011) 63–94.
+https://doi.org/10.1017/S0017816024000051 Published online by Cambridge University Press
+300
+HARVARD THEOLOGICAL REVIEW
+or acquiesce, like the Kierkegaardian believer.14 I begin with a brief discussion of 
+the prominence of suffering within the Kierkegaardian life of faith.15 
+14 The relation between the epistemology of the “absurd” and the believer’s normative relation 
+to her experience of the absurd is a complicated one. In other words, protest does not necessarily 
+presuppose an irrationalist analysis of faith in general or of the Kierkegaardian “absurd” in 
+particular, nor do acquiescence, submission, or obedience presuppose that faith is not irrational. 
+One’s paradigms of religious perfection, the theological virtues that they embody, and the manners 
+in which one’s community explicates its key religious metaphors often play a greater role in one’s 
+normative attitude toward one’s experience of the absurd than one’s judgment concerning faith’s 
+rationality. The virtues of courage, truthfulness, and a commitment to justice may suffice, in some 
+circumstances, to (normatively) ground protest. In other words, confronting one’s boundaries, be 
+they physical, emotional, or epistemic (as Evans, Walsh, and others aptly describe in their work on 
+the epistemology of the absurd), particularly when facing injustice, may provide a normative ground 
+for voicing protest, despite one’s commitment to faith’s rationality. Thus, pacifying the charge of 
+irrationality does not suffice to pacify or to delegitimize protest. As Mooney insightfully notes: “a 
+great deal of what Kierkegaard deems important to faith is compatible with Abraham refusing God’s 
+demand. Dilemmas describe the incapacity of systematic ethics or Reason to sufficiently justify 
+either compliance or refusal”; see Edward F. Mooney, Knights of Faith and Resignation: Reading 
+Kierkegaard’s Fear and Trembling (Albany: State University of New York Press, 1991) 85. For 
+insightful analyses of Kierkegaardian faith, which engage both with the epistemology of the absurd 
+and the believer’s normative relation to her experience of the absurd, see idem, “Understanding 
+Abraham: Care, Faith, and the Absurd,” in Kierkegaard’s “Fear and Trembling”: Critical Appraisals 
+(ed. Robert L. Perkins; Tuscaloosa: University of Alabama Press, 1981) 100–114; idem, “Kierkegaard, 
+Our Contemporary: Reason, Subjectivity, and the Self,” Southern Journal of Philosophy 27 (1989) 
+381–97; idem, Knights of Faith and Resignation, esp. 79–89; Sylvia Walsh, “Echoes of Absurdity: 
+The Offended Consciousness and the Absolute Paradox in Kierkegaard’s Philosophical Fragments,” 
+in International Kierkegaard Commentary: Philosophical Fragments and Johannes Climacus (ed. 
+Robert L. Perkins; Macon, GA: Mercer University Press, 1994) 33–46; eadem, Living Christianly: 
+Kierkegaard’s Dialectic of Christian Existence (University Park: Pennsylvania State University 
+Press, 2006); eadem, Kierkegaard: Thinking Christianly in an Existential Mode (Oxford: Oxford 
+University Press, 2009). For a consideration of the rationality of faith and the normative status of 
+protest in the Jewish tradition, see, e.g., Fisch, Covenant of Confrontation; idem, “The Talmudist 
+Enlightenment: Talmudic Judaism’s Confrontational Rational Theology,” European Journal for 
+Philosophy of Religion 12 (2020) 37–63; Avi Sagi and Nir Sagi, “Religious Protest and Religious 
+Loyalty.”
+15 For more on the role of suffering in Kierkegaard’s understanding of the Christian life, see, 
+e.g., Anthony Imbrosciano, “Inevitable Martyrdom: The Connection between Faith and Suffering in 
+Kierkegaard’s Later Writings,” International Journal for Philosophy of Religion 36 (1994) 105–16; 
+Michael Olesen, “The Role of Suffering in Kierkegaard’s Gospel,” Kierkegaard Studies Yearbook 
+(2007) 177–92; Timothy Dalrymple, “The Ladder of Sufferings and the Attack upon Christendom,” 
+Kierkegaard Studies Yearbook (2010) 325–52. For a lucid examination of how one is to relate to one’s 
+suffering, according to Kierkegaard, see Samuel Cuff-Snow, “The Moment of Self-Transformation: 
+Kierkegaard on Suffering and the Subject,” Continental Philosophy Review 49 (2016) 161–80. For 
+more on the relation between suffering and happiness in Kierkegaard, see Verbin, “Three Knights 
+of Faith”; see also, e.g., Thomas Miles, “To Be Joy Itself: Kierkegaard on Being Present to Oneself 
+and Others in Faith,” Kierkegaard Studies Yearbook (2011) 221–37. For Kierkegaard’s manner of 
+understanding Job’s suffering see, e.g., Frances Maughan-Brown, “Job’s Suffering,” Kierkegaard 
+Studies Yearbook (2011) 365–81. For a particularly enlightening discussion of Job’s manner of 
+relating to God and to his loss, see Edward Mooney, “Kierkegaard’s Job Discourse: Getting Back 
+the World,” International Journal for Philosophy of Religion 34 (1993) 151–69. There are various 
+important similarities between Mooney’s understanding of the book of Job’s ending and my own, 
+as shall become apparent in the last section of this article. 
+https://doi.org/10.1017/S0017816024000051 Published online by Cambridge University Press
+N. VERBIN
+301
+Both in his pseudonymous and in his nonpseudonymous writings, both in his 
+early and his later writings, Kierkegaard emphasizes that faith involves suffering, 
+that God’s love and loving God is “only in suffering”: 
+The God of love is in heaven fondly loving also you. Yes, loving; that is why 
+he would like you finally to will what he for the sake of eternity wills for 
+you: that you might resolve to will to suffer, that is that you might resolve to 
+will to love him, because you can love him only in suffering, or if you love 
+him as he wills to be loved you will come to suffer. (SKS 13, 352; M, 294).16 
+Kierkegaard stresses that faith promises a greater deal of suffering than its 
+absence; it offers a remedy “infinitely worse than the sickness” (SKS 12, 118; 
+PC, 110), one that it would be lunacy to embrace. Speaking of Jesus, Kierkegaard 
+states: “even those who suffered fled from him; they understood (and humanly 
+speaking, very correctly) that when it comes to most human misery one is better 
+helped by remaining what one is then by being helped by him” (SKS 12, 72; 
+PC, 60).
+In Works of Love, Kierkegaard speaks about the double danger of Christianity, 
+which involves both the suffering of renunciation and sacrifice and one’s being 
+ridiculed or abused on account of one’s readiness to realize such imprudent 
+commitments. Kierkegaard emphasizes that such twofold suffering is not contingent 
+but necessary for the Christian:
+[T]he good is rewarded with hate, contempt, and persecution. . . . Would it 
+not still be possible that a Christian would avoid these adversities in exactly 
+the same way as one fortunately is not tried and tested in poverty or sickness? 
+That means the world’s opposition is looked upon as being in an accidental, 
+not in an essential relationship to Christianity; opposition can perhaps come 
+but also perhaps not arise. This point of view, however, is totally un-Chris
+tian. . . . Christianly the world’s opposition stands in an essential relationship 
+to the inwardness of Christianity. (SKS 9, 192–93; WL, 192–94; italics in 
+original)
+Is the Kierkegaardian believer, however, exempt from meaningless, absurd 
+suffering? Is the Kierkegaardian believer free from the kind of suffering that 
+Camus describes as resulting from the contradiction between a silent world and a 
+craving for clarity? 
+16 The following abbreviations of Kierkegaard’s works will be used within the text. CD: Søren 
+Kierkegaard, Christian Discourses and The Crisis and a Crisis in the Life of an Actress (ed. and 
+trans. Howard V. Hong and Edna H. Hong; Princeton: Princeton University Press, 1997). EUD: 
+Søren Kierkegaard, Eighteen Upbuilding Discourses (ed. and trans. Hong and Hong; Princeton: 
+Princeton University Press, 1990). M: The Moment and Late Writings (ed. and trans. Hong and 
+Hong; Princeton: Princeton University Press, 1998). PC: Søren Kierkegaard, Practice in Christianity 
+(ed. and trans. Hong and Hong; Princeton: Princeton University Press, 1991). UDVS: Søren 
+Kierkegaard, Upbuilding Discourses in Various Spirits (ed. and trans. Hong and Hong; Princeton: 
+Princeton University Press, 2009). WL: Søren Kierkegaard, Works of Love (ed. and trans. Hong and 
+Hong; Princeton: Princeton University Press, 1995). SKS: Søren Kierkegaards Skrifter (28 vols.; 
+Copenhagen: Gads Forlag, 1997–2013). 
+https://doi.org/10.1017/S0017816024000051 Published online by Cambridge University Press
+302
+HARVARD THEOLOGICAL REVIEW
+Not only is the Kierkegaardian believer not exempt from the absurd but she 
+must be afflicted with the absurd in order to relate to it religiously. Kierkegaard 
+emphasizes that relating religiously to one’s ordeal involves finding no meaning in 
+it per se, no use for it in itself, no future-directed hope in regard to it, or, as he puts 
+it in various places: “faith sees best in the dark,” that is, when no meaning, no use, 
+and no benefit for what one endures can be perceived by wisdom; “when sagacity 
+is able to perceive the beneficialness, then faith cannot see God; but when in the 
+dark night of suffering sagacity cannot see a hand-breath ahead of it, then faith can 
+see God, since faith sees best in the dark” (SKS 8, 338; UDVS, 238). Kierkegaard 
+emphasizes that “faith always pertains to what is not seen, be it the invisible or the 
+improbable” (SKS 8, 336; UDVS, 235). In other words, suffering can be religiously 
+significant when reason perceives no meaning and no use for it. It is by means of 
+its insignificance that its religious meaning qua task can be realized. 
+Camus describes the predicament of the absurd with the following words: 
+I want everything to be explained to me or nothing. And the reason is impo
+tent when it hears this cry from the heart. The mind aroused by this insistence 
+finds nothing but contradictions and nonsense. What I fail to understand is 
+nonsense. The world is peopled with such irrationals. The world itself, whose 
+single meaning I do not understand is but a vast irrational. (Camus 1979, 31)
+Faith does not undo the “vast irrational.” The absurd, the irrational, the nonsense 
+continue to afflict the believer: “Sagacity cannot see a hand-breath ahead of it.” 
+The contradiction remains. It must remain if faith is to enter in. When the believer 
+firmly holds on to God, while the understanding reaches a standstill, being struck 
+by the absurd, faith defeats suffering:
+However, if the sufferer firmly holds on to what the understanding admittedly 
+cannot comprehend, but what faith, on the other hand, firmly holds on to 
+. . . then eternal happiness has the overweight . . . the faith, contrary to the 
+understanding, that the suffering, which seems to be utterly evil and useless, 
+will procure a great eternal weight of glory gives the perseverance of eternity. 
+(SKS 8, 406; UDVS, 313–14; italics added)
+What the understanding “cannot comprehend” remains; the absurd remains; what 
+seems to be “utterly evil and useless” continues to seem so. It is not, however, all 
+that there is. Faith “holds on,” bringing in “glory” into the “utterly evil and useless,” 
+into the absurd. In other words, embracing faith is placing the absurd at the heart 
+of the religious life, while bringing in another aspect to bear upon it. It is living 
+the absurd—not undoing it or leaping out of it.
+Kierkegaard introduces the notions of “use,” “task,” “benefit,” and “hope” to 
+explain what it means to bring faith’s thought to relate to one’s meaningless, absurd 
+ordeal and “procure a great eternal weight of glory.” When he introduces these 
+terms, they come to have different meanings, different uses and logic from their 
+ordinary ones: “But in the main there is still only one thought, one single thought, 
+that can determine the issue, one thought that contains faith’s transformation from 
+https://doi.org/10.1017/S0017816024000051 Published online by Cambridge University Press
+N. VERBIN
+303
+the heavy burden into the light burden—this thought is that it is beneficial, that the 
+heavy suffering is beneficial” (SKS 8, 335; UDVS, 235).
+The notion of “benefit” that one is to bring to bear on the absurd, the notion 
+that what seems evil and absurd “will procure a great eternal weight of glory,” is 
+unlike the expectation of a happy ending. It is not future oriented. The benefit, the 
+glory, does not involve, for example, a future recovery of one’s losses or injuries, a 
+future vindication of one’s innocence, a future compensation for worldly damages 
+by means of other worldly goods. The benefit, the glory, is internal to one’s very 
+manner of relating to one’s ordeal; it is realized when one relates to one’s ordeal 
+faithfully; it is realized when one brings in the thought of faith to bear upon it, 
+viewing it as a task to endure in obedience and patience. In other words, the benefit 
+is realized at the very moment of viewing one’s ordeal as beneficial:
+One must, however, wait for the fulfilment of an expectation, but for the 
+beneficialness of suffering one does not need to wait. . . . This can be done at 
+once. Therefore, faith that the heavy suffering is beneficial is far more perfect 
+than the expectation of a happy ending. The happy ending can fail to come, 
+but the believer believes that the suffering is beneficial to him—thus the 
+benefit cannot fail to come—when it is. (SKS 8, 338; UDVS, 238)
+Thus, for the believer, suffering is always meaningful; it is always beneficial, since 
+it always contains a task, namely, to endure it. The task, the benefit, however, is not 
+perceivable to reason. If it was, it could not be of any significance for the believer 
+qua believer. Perceiving an external, worldly use, benefit, or purpose for one’s 
+ordeal obscures the matter. It renders it more difficult to realize the benefit: “he says 
+it again in faith’s wonder that what he humanly cannot understand is beneficial to 
+him” (SKS 8, 338; UDVS, 238). Thus, to reiterate, faith bringing in the notion of 
+“benefit” and “task” to bear on the absurd and thereby to transform it does not undo 
+the absurd but presupposes it: “But that the heavy suffering is beneficial—that must 
+be believed; it cannot be seen. . . . Faith’s thought must be there and the inward, 
+trusting repeated utterance of this thought to oneself” (SKS 8, 335; UDVS, 235).
+What the believer sees is the absurd; what the believer believes is that it is 
+beneficial, that is, that she is called to endure the absurd, that enduring it is her 
+task. To put it slightly differently, for the believer, meaningless suffering is both 
+meaningless, since sagacity cannot perceive any meaning in it, and also meaningful, 
+since it always contains a task, namely, to endure it, viewing oneself as standing in 
+one’s imperfection before God, heeding the divine tasks that one was assigned.17 
+Such a manner of relating to one’s trials carries an internal benefit within it since 
+life’s trials are brought into the framework of one’s relation to God. In it and through 
+it lies the benefit of the “thought of faith.”
+Both meaninglessness (absurdity, horror) and meaningfulness (through the 
+notions of benefit, task, blessedness, and joy) coincide in faith’s thought. Faith and 
+17 Kierkegaard appeals to the notion of “essential guilt” in this regard. See his discussion of 
+Job in UDVS, 264–88. 
+https://doi.org/10.1017/S0017816024000051 Published online by Cambridge University Press
+304
+HARVARD THEOLOGICAL REVIEW
+reason, seeing (by the eyes of wisdom) and believing (by the eyes of faith), are two 
+incommensurable attitudes which do not cancel one another. Both are valid, both 
+are present for the Kierkegaardian believer. 
+Although both are present, faith has the last word. Although the absurd is not 
+undone, although the believer is even pushed further into it, by embracing a remedy 
+infinitely worse than the sickness, the absurd is defeated.18 Its defeat does not result 
+from the elimination of the ordinary causes for suffering; it does not involve the 
+dissolution of the antinomy of the human condition by the realization of one’s 
+hopes, e.g., for recovered health, reputation, or property, in this world or the next. 
+Nothing is added and nothing is removed; “everything is unchanged” (SKS 8, 337; 
+UDVS, 236). The defeat of suffering and the absurd is in the thought of faith itself, 
+which transforms them into blessed suffering.19 
+Although “faith’s thought” changes nothing—neither suffering’s objective 
+causes nor the subjective way in which it is experienced—it changes everything: 
+It is not true that the Christian is exempted from human sufferings as we 
+know them in the world; no, but the person who bears the suffering in such 
+a way that he believes the yoke is beneficial to him is carrying Christ’s yoke. 
+No new suffering, humanly speaking, has been added, but neither has any old 
+suffering been removed. To that extent everything is unchanged, and yet it has 
+now been given, this great thought, and yet the place has been found outside 
+the world: faith. (SKS 8, 336–37; UDVS, 236)
+The very same loving faith that produces and enhances suffering is its very defeat; 
+by bringing new eyes into what is endured, faith changes everything while leaving 
+it as it is: 
+In a certain sense the burden remains the same, since the burden is the suf
+fering, the heavy suffering, and yet the burden becomes light. A person’s lot 
+here on earth has not become different from before because Christianity en
+tered into the world. A Christian can come to suffer exactly the same as was 
+suffered before—yet the heavy burden becomes light for a Christian . . . the 
+one and the same burden is heavy and yet light. (SKS 8, 334; UDVS, 233)
+The lightness of the burden does not entail that the sufferer suffers less. The joy 
+that defeats suffering, that renders it “light,” that “outweighs” it, is incommensurate 
+with it; it belongs to a different “order of things”: 
+Gold has a special value that makes it meaningless to weigh gold and feathers 
+together. So it is also here with the two stated magnitudes. The distinction 
+is not between happiness and suffering, but between eternal happiness and 
+temporal suffering. The relation is this misrelation, and that it is a misrelation 
+18 For more on the different manners in which suffering can be defeated, see Verbin, “Three 
+Knights of Faith.”
+19 For Kierkegaard, “suffering” and “joy” (Glaede), or “happiness” (Salighed), are not opposites. 
+For a discussion of Kierkegaard’s concept of “Salighed,” see Abrahim H. Khan, Salighed as 
+Happiness? (Waterloo, ON: Wilfrid Laurier University Press, 1985). 
+https://doi.org/10.1017/S0017816024000051 Published online by Cambridge University Press
+N. VERBIN
+305
+shows up most clearly in this, that the relation between temporal bliss and 
+eternal happiness is the same misrelation. (SKS 8, 410; UDVS, 318; italics 
+in original)
+Moreover: 
+Temporal suffering and eternal happiness are not only heterogeneous in the 
+essential sense as gold and feathers are but are heterogeneous in the infinitely 
+essential sense; the slightest part of the happiness of eternity weighs infinitely 
+more than the longest earthly suffering. . . . Even when the temporal suffer
+ing is the heaviest, eternal happiness still has the overweight. (SKS 8, 410; 
+UDVS, 319)
+Since suffering and joy are in the “infinitely essential sense” heterogeneous 
+when compared to one another, “faith’s thought” does not undo the sorrow, nor 
+does it undo its perceived meaninglessness and absurdity. It neither abolishes it nor 
+diminishes it. Faith alters it completely while leaving everything in place. It does so 
+by bringing a new dimension into it, a new narrative, a new way of seeing, a new 
+meaning. The ordeal is not seen solely as a horror; it is also seen under the category 
+of a blessing. Various concepts come to play a role within that new perspective, 
+within the new narrative: God, love, blessedness, eternity, happiness, and joy. The 
+perspective of faith, however, does not annul the horror. Both the horror and the 
+blessing are real: “Faith is the conviction, the blessed conviction, which is in fear 
+and trembling. When faith is seen from its one side, the heavenly, only the reflection 
+of eternal salvation is seen in it; but seen from its other side, the merely human 
+side, one sees sheer fear and trembling” (SKS 10, 186; CD, 175).
+Faith, for Kierkegaard, involves both the horror and the blessing, both God 
+and the absurd. Although neither can be done away with, although neither can be 
+ignored, joy has the final word: “Existence is blessedly secured with the help of 
+eternity . . . in every danger there is a hidden trapdoor—to ascent. . . . Just when 
+a person is closest to despairing, there is a place to step on . . . and everything 
+changes infinitely” (SKS 10, 125; CD, 114). Kierkegaard refers to the transformative 
+moment of faith, to the joy that defeats sorrow as a miracle: “In the external sense 
+there certainly is no change; the sufferer remains on the spot, in his condition, and 
+yet there is the change, the wonderous change, the miracle of faith” (SKS 10, 126; 
+CD, 115).
+There are various differences between the Job that I described in the previous 
+section (and that I shall discuss in greater detail in the next) and the Kierkegaardian 
+faithful sufferer. First and foremost, Job, unlike the Kierkegaardian sufferer, 
+protests.20 Unlike the Kierkegaardian sufferer, there is no joy and no consolation, 
+20 Kierkegaard explicitly engages with Job in Repetition, in “The Lord Gave and the Lord Took 
+Away; Blessed Be the Name of the Lord” (EUD, 109–24), and in “The Joy of it that in Relation to 
+God a Person Always Suffers as Guilty” (UDVS, 264–88). In Repetition, a protesting Job comes to 
+light in the letters of the young man, who appeals to Job’s protest for support. See Søren Kierkegaard, 
+Repetition in Fear and Trembling, Repetition (ed. and trans. Howard V. Hong and Edna H. Hong; 
+https://doi.org/10.1017/S0017816024000051 Published online by Cambridge University Press
+306
+HARVARD THEOLOGICAL REVIEW
+for him, in bringing “God” to bear on his ordeal; the absurd is neither overcome 
+nor defeated for him. As I pointed out, God’s very presence turns Job’s experience 
+of the absurd into a cry of protest that is voiced against God. In other words, God 
+is part of Job’s very experience of the absurd, not another aspect that redeems it.21 
+Despite the differences, there is a significant resemblance, a “family resemblance” 
+between Job and the Kierkegaardian sufferer: God’s presence, for both, does not 
+undo their absurd suffering. Both believers dwell in the absurd, and both appeal 
+to God (albeit in different ways) while immersed in it. 
+Emphasizing the manner in which the Kierkegaardian sufferer’s experience of 
+the absurd is not undone but rather presupposed by faith, making perspicuous the 
+“family resemblance” between him and Job (which involves an observation of the 
+differences too) is the very beginning of gaining a more perspicuous view of the 
+“grammar” of faith of protesting believers. In the next section, I shall examine the 
+“family resemblance” between Camus’s absurd man, the Kierkegaardian absurd 
+sufferer, and Job by exploring their different attitudes toward protest. I shall argue 
+that Job, both before and after the divine revelations, is an “absurd man” in Camus’s 
+sense; he is well aware of the absurd yet “without resignation” opts for constant 
+confrontation and revolt—above all, revolt against God.
+ Absurd Protest
+The Kierkegaardian believer lives the absurd differently from Camus’s “absurd 
+man.” Camus’s rebel does not merely stare bravely at the absurdity of his condition; 
+he does not merely accept “the desperate encounter between human inquiry and 
+the silence of the universe” (Camus 1984, 6).22 Camus’s rebel protests against it, 
+particularly, against injustice and wrongdoing done to him and to others. In The 
+Myth of Sisyphus, Camus characterizes the revolt as “the certainty of a crushing 
+fate, without the resignation that ought to accompany it” (Camus 1979, 54). In The 
+Rebel, he names this attitude “metaphysical rebellion”: “Metaphysical rebellion is 
+Princeton: Princeton University Press, 1983). It is implausible to assume that the young man’s 
+letters that appear in Constantin Constantius’s account represent Kierkegaard’s understanding of 
+Job. Moreover, Kierkegaard’s discourse “The Lord Gave and the Lord Took Away; Blessed Be 
+the Name of the Lord,” published during the same year as Repetition (1843) under Kierkegaard’s 
+own name, expresses an acquiescing Job. I therefore believe that it is the latter Job that represents 
+Kierkegaard’s critical attitude toward religious protest. Kierkegaard’s Job can be understood 
+through the analysis of the Kierkegaardian absurd sufferer that I have discussed in this section. 
+In other words, the seeming incompatibility between the protesting young man and Kierkegaard’s 
+normative attitude toward protest is resolved once we realize that the young man of Repetition is 
+not to be understood as a believer, let alone a Christian. For a different account of religious protest 
+in Kierkegaard, see Claudia Welz, “Trust and Lament: Faith in the Face of Godforsakeness,” in 
+Evoking Lament: A Theological Discussion (ed. Eva Harasta and Brian Brock; London: T&T Clark, 
+2009) 118–35; eadem, Humanity in God’s Image: An Interdisciplinary Exploration (Oxford: Oxford 
+University Press, 2016) 120–66. 
+21 For more on Job’s experience of the absurd and his religious protest, see section 3 of this article.
+22 All quotes within the text to Camus 1984 are from Albert Camus, The Rebel: An Essay on 
+Man in Revolt (trans. Anthony Bower; New York: Vintage Books, 1984).
+https://doi.org/10.1017/S0017816024000051 Published online by Cambridge University Press
+N. VERBIN
+307
+a claim . . . against the suffering of life and death and a protest against the human 
+condition both for its incompleteness, thanks to death, and its wastefulness, thanks 
+to evil” (Camus 1984, 24). 
+Camus’s commitment to rebellion and revolt presupposes human innocence, 
+or “reasonable culpability,” human dignity, and pride (Camus 1984, 11). The 
+rebel, by revolting, demonstrates that “there is something in him which is ‘worth
+while’ . . . and which must be taken into consideration” (Camus 1984, 13). In his 
+protest, “he confronts an order of things which oppresses him with the insistence 
+on a kind of right not to be oppressed” (Camus 1984, 13). Thus, “metaphysical 
+rebellion,” protest and revolt become expressions and assertions of human dignity 
+and human rights. Camus states: “In every act of rebellion, the rebel simultaneously 
+experiences a feeling of revulsion at the infringement of his rights and a complete 
+and spontaneous loyalty to certain aspects of himself” (Camus 1984, 13–14).
+Unlike Camus’s absurd man, who is committed to “reasonable culpability” and 
+human dignity, and who therefore asserts his rights in protest and rebellion, when 
+believing that they are violated, the Kierkegaardian absurd believer acquiesces. The 
+Kierkegaardian absurd believer is committed to being patient and meek, particularly 
+before God, and insists on always being in the wrong before God: 
+Faith’s eternal happiness . . . is that God is love. This does not mean that faith 
+understands how God’s rule over a person is love. Right here is faith’s strug
+gle: to believe without being able to understand. And when this struggle of 
+faith begins, when doubts arise, or when “doubt assaults faith with many wild 
+thoughts,” then the consciousness of guilt comes to the rescue as the relief, as 
+the last reinforcement. . . . It specifically wants to help faith, help the believer 
+by teaching him not to doubt God but himself” (SKS 8, 370; UDVS, 273). 
+Faith does not understand how God’s rule over a person is love. If one understood 
+how God’s rule over oneself is love, there would be no room for faith to take hold: 
+“faith sees best in the dark.” Thus, “doubt assaults . . . with many wild thoughts.” 
+The believer experiences the absurd, the meaningless. However, instead of rebelling 
+against the absurd, instead of asserting his dignity and rights, he turns against 
+himself, invoking the notion of guilt, his guilt, his essential guilt before God, to 
+block the road of religious protest: “When impatience, like a rebel, wants to attack 
+God, the consciousness of guilt attacks the rebel; that is, the attacker ends up fighting 
+with himself” (SKS 8, 381; UDVS, 286). 
+Kierkegaard invokes God’s ineffability too, along with human essential guilt, 
+to shun the possibility of protest against God: “God’s omnipotence and holiness 
+do not mean that he can be victorious over everyone, that he is the strongest, for 
+this is still a comparison; but it means, and this bars any comparison, that no one 
+can manage to fight with him” (SKS 8, 381; UDVS, 286). There is no room for 
+struggling with God, no room for self-assertive protest. Instead of protesting, instead 
+of asserting one’s commitments and rights, the Kierkegaardian believer is called 
+to obedience and patience: 
+https://doi.org/10.1017/S0017816024000051 Published online by Cambridge University Press
+308
+HARVARD THEOLOGICAL REVIEW
+faith and faith’s obedience in sufferings, love forth the growth, because the 
+object of all faith’s work is to get rid of egotism and selfishness in order that 
+God can actually come in and in order to let him rule in everything. The more 
+suffering there is—provided something is learnt from the suffering—the more 
+all that is selfish is removed, rooted out, and the more obedience replaces 
+it as the receptive soil in which the eternal can take root. (SKS 8, 356–57; 
+UDVS, 259) 
+Underlying Kierkegaard’s commitment to obedience and patience is his 
+commitment to self-denial, to rooting out egotism and selfishness so that the eternal 
+can take root. There is no discipleship without it, according to Kierkegaard: “To 
+follow Christ means to take up one’s cross or . . . to carry one’s cross. To carry one’s 
+cross means to deny oneself” (SKS 8, 322–23; UDVS, 221). And: “there must not 
+be anything, anything at all, that the follower would not be willing to give up in 
+self-denial” (SKS 8, 323; UDVS, 222). 23 
+Thus, instead of protesting, instead of asserting one’s commitments and rights, 
+instead of calling the world or God to take on a different course, to transform, 
+the Kierkegaardian believer attempts to transform herself, to conquer herself, 
+her needs, desires, commitments, and convictions, including those concerning 
+her rights. Wishing to sacrifice herself for the sake of the good in self-denial, the 
+Kierkegaardian believer attempts to foster patience. She attempts to endure quietly.24 
+Protest is, thus, excluded: it is restless; it is impatient; it betrays a presumptuously 
+defiant refusal to let God rule: 
+As soon as unrest begins, the cause is that you are unwilling to obey; but 
+sufferings will help you to obey. Therefore, when there is suffering, but also 
+obedience in suffering, you are being educated for eternity; then, there is no 
+impatient hankering in your soul, no restlessness, neither of sin nor of sorrow. 
+(SKS 8, 357; UDVS, 259)
+Patience as an acceptance of God’s rule is called for—not protest. The sufferer is 
+to find rest “in the thought of obedience: that God must rule in everything” (SKS 
+8, 356; UDVS, 258). 
+A commitment to meekness too, which has its roots in the idealization of self
+denial, excludes the possibility of protest. Protest is a self-assertive act through 
+which one asserts one’s rights; meekness is a self-effacing act, through which one 
+relinquishes one’s rights: “Christ was meek. . . . He did not assert his rights; he 
+23 For more on the centrality of self-denial and self-sacrifice for Kierkegaard, see Walsh, Living 
+Christianly.
+24 As an anonymous referee lucidly put it: “It is not the doctrine of submission that makes 
+Kierkegaard, Kierkegaard but the struggle to submit.” The centrality of the struggle to submit, 
+however, is compatible with and directly related to the normative roles of humility, submission, 
+and obedience, for Kierkegaard. In other words, it is because Kierkegaard is wholly committed 
+to humility and submission, considering them as ideals that involve self-denial and self-sacrifice, 
+that the struggle to realize these ideals in our life with God and our neighbors plays the role that 
+it does in his thought.
+https://doi.org/10.1017/S0017816024000051 Published online by Cambridge University Press
+N. VERBIN
+309
+did not plead his innocence. He did not talk about how they were sinning against 
+him; he did not point out their scandalous guilt with a single word. Even in his last 
+moment he said: Father forgive them, they know not what they do” (SKS 8, 343–44; 
+UDVS, 244). “This meekness is the Christian’s most specific mark,” according to 
+Kierkegaard (SKS 8, 344; UDVS, 245). 
+The process of self-emptying through obedience, patience, meekness, through 
+the thought that “in relation to God a person always suffers as guilty,” through 
+self-denial, ideally culminates in nothingness:
+More and more is taken away from the struggler. The external world and 
+every claim on life were taken away from him; now he is struggling for an 
+explanation, but he is not even struggling his way to that. Finally it seems to 
+him that he is reduced to nothing at all. . . . However great he is, he cannot 
+manifest God’s likeness; God can imprint himself in him only when he him
+self has become nothing. (SKS 5, 380; EUD, 399) 
+Thus, the Kierkegaardian believer dwells in the absurd but does not protest against 
+it, being committed to patience, obedience, and meekness, being committed to 
+self-denial and aspiring to self-annihilation. 
+Although the Kierkegaardian believer does not point the accusing finger at God 
+for the absurd that he confronts, although he does not protest, although he lives 
+the absurd differently from Camus’s “absurd man,” the Kierkegaardian believer 
+does live it, as I have emphasized, and, as such, exhibits a “family resemblance” 
+to Camus’s “absurd man.” 
+Job, read through the long tradition of Jewish protestors against God, is another 
+absurd believer.25 In his protest, he displays a greater deal of “family resemblance” 
+to Camus’s absurd rebel than the Kierkegaardian absurd believer. Job stares 
+bravely at the absurdity of the world and at the absurdity of his condition, unable 
+to understand how “God’s rule over a person is love”; unlike the Kierkegaardian 
+believer, however, he is unwilling to yield.26 
+Job experiences God as the God of disruptions: cosmic, social, and personal; 
+he experiences God as an abuser of the world, humanity, and himself. God causes 
+earthquakes and eclipses: “He moves mountains without their knowing it and 
+overturns them in his anger. He shakes the earth from its place and makes its pillars 
+25 For more on the tradition of protestors, see Laytner, Arguing with God.
+26 In the remainder of this section, I will assume a specific interpretation of the book of Job, 
+defended in Verbin, Divinely Abused. I will expand on some of its features, when necessary for the 
+exposition made in this section. In using this interpretative framework for reading the book of Job, 
+I maintain that it is a possible, plausible, and helpful interpretation of the book of Job. There are 
+other plausible and enlightening readings too. As Eleonore Stump states, one need not argue that 
+“one particular interpretation is the only right one . . . interpretations of texts can invite one to see 
+the text in a certain light, but they cannot compel assent as philosophical arguments are meant to try 
+to do” (Eleonore Stump, Wandering in Darkness: Narrative and the Problem of Suffering [Oxford: 
+Oxford University Press, 2010] 178). Similar to Stump’s assertion, my intention here is “to invite 
+readers to see the text as I see it and to consider whether that view of the text makes sense to them, 
+too” (Stump, Wandering in Darkness, 178).
+https://doi.org/10.1017/S0017816024000051 Published online by Cambridge University Press
+310
+HARVARD THEOLOGICAL REVIEW
+tremble. He speaks to the sun and it does not shine; he seals off the light of the 
+stars” (Job 9:5–7). God disrupts the social order, confusing the minds of the old 
+and the wise: “He . . . makes fools of judges” (Job 12:17); “He silences the lips 
+of trusted advisers and takes away the discernment of elders” (Job 12:20). God 
+disrupts the moral order, frustrating the expectation for justice when destroying 
+“both the blameless and the wicked” (Job 9:22). Unwilling to yield to the God that 
+he experiences as a God of malevolent disruptions, Job boldly protests to God, 
+and against God. He lives the contradiction between an incomprehensible world, 
+saddled with an incomprehensible God, who appears capricious and cruel, and his 
+human consciousness, which craves meaning, order, and justice; he protests against 
+the “antinomy” as an “absurd” rebel. He insists that “there is something in him 
+which is ‘worth-while’ ” and which must be taken into consideration (Camus 1984, 
+13); he insists that he has “a kind of right not to be oppressed” (Camus 1984, 13).
+In his protest to and against God, Job expresses resentment and moral hatred of 
+God.27 Jean Hampton characterizes resentment as a way of fighting the humiliating 
+message that is conveyed by the offense that one had suffered and, as such, as 
+presupposing the resenting person’s self-esteem. She maintains that resentment is 
+“an emotion whose object is the defiant reaffirmation of one’s rank and value in 
+the face of treatment calling them into question in one’s own mind.” 28 
+Unlike resentment, which is an emotional protest directed at defending the 
+victim’s sense of self-worth, moral hatred is an emotional protest directed at 
+defending a moral value that has been violated.29 It does not presuppose victimhood. 
+It is an “emotional protest against immoral treatment whose object is the defense of 
+the value which . . . [an] action violated.”30 Thus, one may morally hate wrongdoers 
+without resenting them. One may feel moral repugnance at what wrongdoers have 
+done without feeling humiliated by them. 
+Seeking to protect his own self-worth as well as the principles of justice from the 
+demeaning symbolic message that is conveyed by the divine assault, Job expresses 
+both resentment and moral hatred toward God. Job’s resentment is expressed 
+throughout the book, in utterances, such as: “Does it please you to oppress me, to 
+spurn the work of your hands, while you smile on the plans of the wicked?” (Job 
+10:3); and “Know that God has wronged me and drawn his net around me. Though 
+I cry, ‘Violence!’ I get no response; though I call for help, there is no justice” (Job 
+19:6–7). Job’s moral hatred is most clearly manifest in his later discourses, when 
+he is concerned with divine injustice in general, with the fate of the virtuous and 
+27 See Verbin, Divinely Abused, 22–46. 
+28 Jean Hampton, “Forgiveness, Resentment and Hatred,” in Forgiveness and Mercy (ed. Jeffrie 
+G. Murphy and Jean Hampton; Cambridge: Cambridge University Press, 1988) 59–60.
+29 The distinction that I here employ between resentment and moral hatred is based on Hampton’s 
+account of these emotions; see Hampton, “Forgiveness, Resentment and Hatred,” 35–87. 
+30 Ibid., 59. 
+https://doi.org/10.1017/S0017816024000051 Published online by Cambridge University Press
+N. VERBIN
+311
+the wicked, in exclamations such as: “Why do the wicked live on, growing old and 
+increasing in power?” (Job 21:7).31 
+Living in an absurd incomprehensible world, governed by an incomprehensible 
+God, who defies his most fundamental expectations, and presupposing his 
+own innocence or “reasonable culpability,” Job protests. He rebels against the 
+infringement of his rights, against injustice, affirming his value and self-worth in 
+the face of treatment that calls them into question. 
+Having a first-person experience of God through God’s revelations does not 
+resolve the absurd for him. On the contrary, it enhances it. The divine revelations 
+do not address the content of Job’s moral complaints and accusations; they do not 
+provide an answer that dissolves the contradiction. As such, they do not provide 
+him with an escape from the absurd. Rather, they consist of a display of unbound 
+and unreasonable power that enhances the contradiction. As James G. Williams 
+puts it: “What kind of universe must Job now live in? A meaningless universe 
+mismanaged by a chaotic, capricious, jealous Tyrant.”32 
+God’s revelations seem to be directed at eradicating Job’s moral protest, his 
+resentment, and his moral hatred by means of frightening him into silence: “Who 
+then is able to stand against me? Who has a claim against me that I must pay? 
+Everything under heaven belongs to me” (Job 41:10–11). Thus, as Marvin H. 
+Pope, the Anchor Bible commentator, states, God’s answer to Job is “something of 
+a surprise and . . . a disappointment. The issue, as Job had posed it, is completely 
+ignored. No explanation or excuse is offered for Job’s suffering. . . . Job had already 
+expressed his awe and wonder at God’s power. . . . He had questioned not divine 
+omnipotence but justice and mercy.”33 Williams is harsher: “[God] has come on like 
+a Divine Blowhard, a God-Almighty Wind, never really dealing with the questions, 
+31 For more on Job’s resentment and moral hatred, see Verbin, Divinely Abused, 22–46, 84–115.
+32 James G. Williams, “ ‘You have not spoken Truth of Me’: Mystery and Irony in Job,” Zeitschrift 
+für die Alttestamentliche Wissenschaft 83 (1971) 247.
+33 Marvin H. Pope, The Anchor Bible: Job (3rd ed.; New York: Doubleday, 1973) lxxx. The 
+Anchor Bible’s interpretation of the meaning of the divine revelations is shared by many others. 
+See, e.g., Matitia Tsevat, “The Meaning of the Book of Job,” HUCA 37 (1966) 73–106; Israel 
+Knohl, “From Fear to Love,” in Job in the Bible: Thought and Art (ed. L. Mazor; Jerusalem: 
+Magnes, 1995) 89–103 (Hebrew). Fox proposes a different interpretative framework for the divine 
+revelations’ meaning and their bearing on the meaning of the book’s ending. Fox maintains that 
+the display of divine power is not intended for “bullying Job into submission.” He argues that the 
+book’s teaching is essentially pietistic, placing faith as the prime virtue (Michael V. Fox, “Job the 
+Pious,” Zeitschrift für die Alttestamentliche Wissenschaft 117 [2005] 351–52). Stump maintains that 
+the divine speeches suggest that “God’s relationship to all his creatures is personal, intimate and 
+parental.” Having a first-person experience of God, Job is able to see God’s love, and, in seeing 
+God’s love, he is given a “second-personal kind of explanation” (Stump, Wandering in Darkness, 
+177–226, esp. 191). Although I side with the former readings, I do not wish to deny the appeal of 
+the latter. As I pointed out, I believe that there can be several different plausible and enlightening 
+interpretations of narratives; see n. 26. 
+https://doi.org/10.1017/S0017816024000051 Published online by Cambridge University Press
+312
+HARVARD THEOLOGICAL REVIEW
+and parading his cosmic power apparatus in a way that fulfills Job’s predictions. 
+And God does not even know that he has been exposed.”34 
+The divine revelations, however, bring about a deeper understanding of God. 
+Job comes to realize that there are no boundaries, either moral or nonmoral to 
+God’s power and God’s manner of using it. After the second revelation ends, Job 
+explicitly refers to that realization: “I know that you can do all things; no purpose 
+of yours can be thwarted” (Job 42:2). In so doing, Job declares that he understands 
+the divine revelations as directed at demonstrating, primarily, the infinite scope 
+of God’s power.35 
+The incommensurability between the moral charge that is voiced against God and 
+the divine response to it in terms of divine power is poignantly represented in the 
+piyyut Ele Ezkera (“These shall I recall”), recited during the Day of Atonement. The 
+piyyut recalls the horrendous fate of the Ten Martyrs, the ten sages of the mishnaic 
+period who were put to death by the Romans, placing them together in a single scene. 
+The cry of protest, which expresses the “experience of the absurd,” is placed in the 
+mouth of the angels: “The celestial Seraphim cried out bitterly, ‘Is this the Torah 
+and this its reward—O God Who cloaks Himself in light as with a garment?’ . . . A 
+voice from Heaven responded, ‘If I hear another sound, I will transform the universe 
+to water, I will turn the earth to astonishing emptiness—this is a decree from My 
+Presence; accept it.’ ”36 The divine response to the angels’ complaint concerning the 
+lack of divine justice, “Is this the Torah and this its reward,” resembles the divine 
+response to Job. It stresses God’s power: “If I hear another sound, I will transform 
+the universe to water, I will turn the earth to astonishing emptiness.” Such a divine 
+response can silence the speaker or speakers; it cannot, however, silence the content 
+of their protest. Divine injustice is not annulled when the victims and those that side 
+with them are annulled, nor are the victims’ pleas for understanding (and, thereby, 
+the victims’ feeling of absurdity) annulled by means of it. The divine response to 
+the angels’ cry for understanding emphasizes the irrational, the incomprehensible; 
+it emphasizes the “antinomy of the human condition.” 
+The absurd is not undone either for Job or for the angels. There is no reason 
+to suppose that either Job or the celestial Seraphim withdraw the content of their 
+accusations against God. Job, like the celestial Seraphim, merely refrains from 
+voicing his moral protest, realizing that there is no point in doing so. 
+34 Williams, “You have not spoken Truth of Me,” 247. 
+35 Mooney persuasively argues for a different framework for understanding the ending of the 
+book of Job, employing Kierkegaard’s Repetition and Kierkegaard’s early Job discourse, “The Lord 
+Gave, and the Lord Took Away; Blessed Be the Name of the Lord,” in EUD. Pointing out that God 
+does not address the content of Job’s accusations, Mooney argues that “the storm changes Job by 
+altering his world, by transforming his vision of it through the poetry of the Whirlwind’s Voice. . . . 
+Misery no longer floods his consciousness. In this, the blessing earlier conveyed to the Lord is now 
+returned. Job gets back the world” (Mooney, “Kierkegaard’s Job Discourse,” 157; italics in original). 
+36 The Complete Artscroll Machzor Yom Kippur: Nusach Ashkenaz (trans. Rabbi Nosson Scherman; 
+Brooklyn: Mesorah Publications, 1986).
+https://doi.org/10.1017/S0017816024000051 Published online by Cambridge University Press
+N. VERBIN
+313
+The “music” of Job’s second response to the second divine revelation, however, 
+particularly when compared to his first response, conveys a transformation in Job’s 
+relation to God:37 
+Then Job answered the Lord: “I know that you can do all things, and that 
+no purpose of yours can be thwarted. Who is this that hides counsel without 
+knowledge? Therefore I have uttered what I did not understand, things too 
+wonderful for me, which I did not know. ‘Hear, and I will speak; I will ques
+tion you, and you declare to me.’ I had heard of you by the hearing of the ear, 
+but now my eye sees you; Therefore I renounce and relent, for [I am] dust 
+and ashes.” (Job 42:1–6)38
+How may we understand Job’s response? I maintain that it may be understood in 
+terms of Job’s forgiving God, while refusing to be reconciled with him.39 
+37 Job’s first response to the first divine revelation is silence, which is a mode of protest in this 
+context. Dissatisfied with Job’s silence, God demands a reply: “The Lord said in reply to Job” (Job 
+40:1), i.e., in reply to Job’s silence. Being ordered to reply, Job now speaks his silent protest in words: 
+“See, I am of small worth” (Job 40:4–5). Job’s statement concerning his insignificance is ironic in 
+this context. Job hands God God’s own depiction of Job’s insignificance, thereby revealing God’s 
+incoherent conception of Job’s significance. Indeed, had Job been insignificant, God would not have 
+revealed himself to Job. Had he been insignificant, God would not have asked for his reply. Job’s 
+silence and Job’s words point to the fact that the mocker, inadvertently, mocks himself, asking the 
+creature that he himself has characterized as “speaking without knowledge” to speak. I, therefore, 
+take Job’s response to God’s first revelation as an extension of his previous bitter verbal protest. 
+God himself does not seem to take Job’s reply as the withdrawal of protest. The very existence of 
+a subsequent second revelation testifies to that.
+38 I am here using the NRSV for Job 42:1–5 since it is closer to the original Hebrew than the 
+NIV; I am using the ArtScroll Stone edition for v. 6, removing some of its explicit interpretative 
+additions, which appear in brackets, in order to preserve the ambiguity of the Hebrew text. Job 
+42:6, translated by the ArtScroll Stone as “Therefore, I renounce [my words] and relent, for [I am 
+but] dust and ashes,” is ambiguous. אמאס lacks an object. It is not clear whether it applies to Job’s 
+previous protesting speech and describes his recanting his previous accusations, or whether it means 
+“loath” and expresses Job’s continuous disgust over his state. נחמתי, too, is ambiguous. The verb 
+sometimes appears in the sense of התנחמתי, i.e., in the sense of feeling consoled; on other occasions, 
+it appears in the sense of taking back what one has said or done. It is also unclear whether “dust 
+and ashes” refers to Job’s frail nature as a human being or whether it refers to his immediate physical 
+state of mourning, to his sitting in dust and ashes. Philological considerations do not provide a 
+resolution to these ambiguities. I propose that we read Job 42:6 as describing Job’s recanting his 
+protest (the speech–act of protest but not its content), declaring that he shall not continue to protest, 
+and as describing Job’s relenting, feeling, to some extent, consoled. I also take it that Job’s relenting 
+is an expression of his forgiveness of God. For more on the meaning of Job 42:1–6, see Verbin, 
+Divinely Abused, 116–46 .
+39 I have extensively argued for that interpretation of the book of Job’s ending in Verbin, Divinely 
+Abused 116–46. What makes this interpretation possible are two constituents of the biblical narrative: 
+1) The absence of a morally relevant reason or justification for Job’s suffering. While the book’s 
+commentators disagree in their understanding of the meaning of the divine revelations, there is wide 
+agreement that no morally valid reason or justification for Job’s suffering is provided in them. The 
+book’s redactor or redactors, too, do not present a morally valid reason that justifies the harm that 
+was inflicted on Job. Satan’s challenge, which has set the scene for Job’s ordeal, does not amount to 
+a morally valid reason for the assault. It is a constitutive part of the moral scandal that the book of 
+Job represents rather than a way of mitigating it. 2) Job’s response to the second divine revelation, 
+https://doi.org/10.1017/S0017816024000051 Published online by Cambridge University Press
+314
+HARVARD THEOLOGICAL REVIEW
+I have elsewhere defended a unilateral and narrow conception of forgiveness in 
+terms of the overcoming of resentment.40 I have argued that victims who forgive 
+their assailants conduct a dialogue with the humiliating message that is conveyed 
+by their assault and reject it; they thereby reacquire their sense of self-worth and 
+transcend their resentment. Thus, forgiveness is always an achievement for victims, 
+since it liberates them from their humiliation, releasing them from psychological 
+victimhood. 
+Forgiveness does not necessarily involve the acquisition of a more favorable 
+view or attitude toward the assailants, of love or empathy toward them, nor does 
+it necessarily involve a willingness to be reconciled with them. Forgiving victims 
+may morally hate their assailants and wish to keep away from them. Indeed, other 
+normative members of the victims’ community, who were not injured by the 
+assailants, may view the assailants unfavorably, as morally corrupt or dangerous. 
+They may morally hate the assailants and wish to keep away from them. It is, indeed, 
+implausible to expect forgiving victims to be more favorably disposed toward their 
+assailants than other members of their community are.41 
+God’s revelations, in and of themselves, may have helped Job to reacquire his 
+sense of self-worth, to overcome his resentment and forgive God. They may have 
+facilitated his forgiveness in two related manners. First, they have inadvertently 
+conveyed a reassuring message concerning Job’s self-worth. Although God 
+emphasized Job’s insignificance (“Who is this who darkens counsel, speaking 
+without knowledge?” [Job 38:2]), God himself revealed himself to Job, conversed 
+with him, asked for his response, and reappeared to him a second time. The mere 
+attention that Job had received from God testifies to Job’s significance. Second, 
+God’s revelations have also inadvertently asserted Job’s power. Job came to realize 
+that, despite his frailty, nothing and no one can undo the validity of his moral claim 
+against God; nothing and no one can transform him into an evildoer or extract his 
+love or his forgiveness by force. By emphasizing Job’s inferiority in terms of mere 
+crude force, God himself had revealed the boundaries of such power. 
+Job could thereby transcend his resentment and forgive God. Overcoming his 
+resentment, Job declares: “I renounce and relent, for [I am] dust and ashes” (Job 
+42:6). Overcoming his resentment in forgiveness, he overcomes the psychological 
+harm that he has suffered, that is, his sense of diminishment, while reaffirming his 
+commitment to justice in moral hatred.42 
+particularly Job 42:6, is notoriously ambiguous and susceptible to multiple interpretations. When 
+considering these two constituents of the narrative, together with the divine revelations’ (inadvertent) 
+emphasis on Job’s significance, together with Job’s silence after 42:6, and particularly together with 
+the repetitious references to God’s attempts to compensate Job for his losses, this interpretation 
+of Job 42:6 in terms of forgiveness without reconciliation becomes both possible and plausible.
+40 See particularly, N. Verbin, “Forgiveness and Hatred,” Ethical Perspectives, 17 (2010) 603–25.
+41 For more on my conception of forgiveness and on the distinction between “forgiveness” and 
+“reconciliation” as it pertains to Job, see Verbin, Divinely Abused, 84–146.
+42 If this is plausible, then there is no need to view Job’s transformation in Job 42:1–6 as an 
+https://doi.org/10.1017/S0017816024000051 Published online by Cambridge University Press
+N. VERBIN
+315
+Thus, I do not believe that we are to read Job 42:6 as an expression of Job’s 
+retracting the content of his accusations, namely, his belief that he had suffered 
+an injustice by the hand of God. He merely retracted the speech act of accusation. 
+Realizing that God’s primary mode of engaging with him is in terms of power, he 
+came to believe that there is no point in continuing to demand justice; therefore, he 
+ceased to protest. His moral hatred, however, subsisted. Thus, while Job was able 
+to forgive God, he was unwilling to be reconciled with him. Indeed, Job remains 
+silent after 42:6, no longer addressing God directly. We may see that as an indication 
+that his loving intimacy with God has ended. In other words, Job does not cease to 
+be a metaphysical rebel, in Camus’s sense, after the divine revelations too. Job’s 
+experience of the absurd persists until the very ending of the book. He is indeed, 
+up to the very end, a “knight of protest.”43
+The repetitious references to God’s attempts to compensate Job for his losses 
+strongly support such a conclusion. We read that God “gave him twice what he had 
+before,” God “restored Job’s fortunes,” and God “blessed the latter years of his life” 
+(42:10–12). These repetitious attempts at compensation and appeasement testify to 
+their own failure. If the first attempt at compensation were successful, there would 
+be no need for a second and a third attempt. Like other victims of bad intimacy, 
+seeing no signs of repentance, Job was seeking to maintain a safe distance from 
+God. He refused to be reconciled with God and to resume his past intimacy with 
+him. Although he overcame his resentment and forgave God, he did not give up 
+on his moral anger at God. His silence is the silence of the absurd religious rebel. 
+Despite the brokenness of the relationship between Job and God, despite the 
+seeming absurdity of God and his world to Job, Job, like Camus’s Sisyphus, 
+embraces life with all its absurdity and leaves this world “old and sated with 
+days” (Job 42:17), which is the Hebrew Bible’s manner of referring to a happy 
+life.44 Camus views Oedipus’s remark, “I conclude that all is well,” as the key for 
+living well with the absurd: “That remark is sacred. . . . It teaches that all is not, 
+has not been, exhausted. It drives out of this world a god who had come into it 
+with dissatisfaction and a preference for futile sufferings. It makes of fate a human 
+matter” (Camus 1979, 110). Job, like Oedipus and Sisyphus, as Camus understands 
+them, refuses the false exits from the absurd: God, suicide, or hope. The absurd 
+remains together with God, and Job embraces it. Like Oedipus and Sisyphus, Job 
+owns up to his life. 
+“inexplicable transformation,” amounting to a tactical maneuver, as Williams does: “Job ‘repents,’ 
+of course, but this is clever of him in the circumstances; it is the only way to deal with one who is 
+rather easily threatened and who does not observe covenants” (Williams, “You Have Not Spoken 
+Truth of Me,” 247). 
+43 See Verbin, “Three Knights of Faith.” 
+44 I am here using the Chabad translation of the text, since it captures more accurately the 
+meaning of the Hebrew original. 
+https://doi.org/10.1017/S0017816024000051 Published online by Cambridge University Press
+316
+HARVARD THEOLOGICAL REVIEW
+Referring to Sisyphus, Camus states: 
+His fate belongs to him. His rock is his thing. Likewise, the absurd man, 
+when he contemplates his torment, silences all the idols. . . . The absurd man 
+says yes and his effort will henceforth be unceasing. If there is a personal 
+fate, there is no higher destiny. . . . For the rest, he knows himself to be the 
+master of his days. (Camus 1979, 110) 
+Job’s fate, too, belongs to him. Camus continues: “The struggle itself towards 
+the heights is enough to fill a man’s heart. One must imagine Sisyphus happy” 
+(Camus 1979, 111). Despite the brokenness of the relationship with God, despite 
+his unyielding silence, we must imagine Job happy, concluding with Oedipus and 
+Sisyphus that “all is well.”
+Notwithstanding the marked differences between the “reminders” that I have 
+collected, they inhabit the same “logical space”; they are members of the same 
+“family.” When contemplated together, we can indeed perceive their “family 
+resemblance” to one another: they live and breathe the absurd, lose their way in 
+it, bring God to bear upon it, defeat it, and find happiness, albeit in very different 
+ways, in the midst of it. The disharmonious, rebellious, and broken voices among 
+them are not to be banished out of the life of faith. As the Kotzker Rabbi says, there 
+is nothing so whole as a broken heart.
+https://doi.org/10.1017/S0017816024000051 Published online by Cambridge University Press
