@@ -1,0 +1,43 @@
+        color: "var(--accent)",
+        desc: "「別指望石頭哪天會留在山頂。當你走下山腳時，看著陽光照亮這片大地，你親手觸碰這顆屬於你的巨石。你的清醒就是對諸神最殘酷的嘲諷——推向頂峰的奮鬥本身，就足以充實人心。」"
+      },
+      kierkegaard: {
+        title: "齊克果的主張：把徒勞化作信仰的跳躍",
+        color: "var(--accent-blue)",
+        desc: "「既然凡人推不上山頂，這正證明了人力的有限！我們應當承認自己的卑微，在不可思議的荒謬中向神呼求，相信神在彼岸預備了超乎常理的奇蹟。」（卡謬批判：這是典型的哲學性自殺）"
+      },
+      husserl: {
+        title: "胡塞爾的主張：描述推石頭的純粹本質",
+        color: "var(--accent-green)",
+        desc: "「別去爭論神存在與否了！讓我們專注於分析：手握巨石時的觸感、肌肉收縮的本質、重力與空間的幾何關係……」（卡謬批判：描述很好，但別偷偷在石頭後面安插一個永恆本質的神殿）"
+      },
+      nihilism: {
+        title: "虛無主義者的主張：反正會掉下來，推它幹嘛？",
+        color: "var(--accent-red)",
+        desc: "「既然終點是徒勞，推石頭就是在自討苦吃。躺在山腳發呆或直接撞死在石頭上算了。」（卡謬批判：這是將『無終極意義』錯誤等同於『當下無價值』的懦弱悲觀）"
+      }
+    };
+    function switchView(thinker, btn) {
+      document.querySelectorAll('.toggle-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const v = viewpoints[thinker];
+      const container = document.getElementById('viewContent');
+      container.innerHTML = `
+        <h3 style="color: ${v.color}; margin-bottom: 0.5rem;">${v.title}</h3>
+        <p>${v.desc}</p>
+      `;
+    }
+    // Slide 8 Accordion
+    function toggleAccordion(header) {
+      const body = header.nextElementSibling;
+      const isExpanded = body.style.display === 'block';
+      document.querySelectorAll('.accordion-body').forEach(b => b.style.display = 'none');
+      document.querySelectorAll('.accordion-header span:last-child').forEach(s => s.innerText = '▼');
+      if (!isExpanded) {
+        body.style.display = 'block';
+        header.querySelector('span:last-child').innerText = '▲';
+      }
+    }
+  </script>
+</body>
+</html>
