@@ -8,35 +8,25 @@
 - 建立核心資料夾：`concepts/`, `comparisons/`, `sources/`, `faq/`, `presentations/`
 - 建立維護準則文件 [AGENTS.md](file:///C:/Users/iris/.gemini/antigravity/scratch/sisyphus-wiki/AGENTS.md)
 - 初始化內容導覽 [index.md](file:///C:/Users/iris/.gemini/antigravity/scratch/sisyphus-wiki/index.md)
-- 定位讀者為哲學初學者，確立深入淺出風格、輕量來源標記與互動簡報規範。
 
 ---
 
 ## [2026-11-23] ingest | 批次處理 raw 原始文獻（共 6 篇）
-- **處理來源**：
-  1. `The Myth of Sisyphus_ from lit charts.txt`
-  2. `Stanford Encyclopedia of Philosophy.txt`
-  3. `Internet Encyclopedia of Philosophy.txt`
-  4. `Absurdism Camus, Sisyphus and Living Without Ultimate Meaning.txt`
-  5. `Camus, Kierkegaard, and the Leap of Faith.txt`
-  6. `Faith and the Absurd Kierkegaard Camus and Job's Religious Protest.txt`
-- **產出文獻筆記**（`sources/` 6 篇）：
-  - `薛西弗斯的神話-LitCharts導讀筆記.md`
-  - `史丹佛哲學百科-卡謬專條.md`
-  - `網路哲學百科-卡謬專條.md`
-  - `荒謬主義簡介-活出無終極意義的人生.md`
-  - `卡謬與齊克果-信心跳躍之辨.md`
-  - `信仰與荒謬-約伯之抗與跳躍.md`
-- **萃取核心概念**（`concepts/` 8 篇）：
-  - `荒謬.md`、`肉體自殺.md`、`哲學性自殺.md`、`反抗.md`、`荒謬自由.md`、`熱情與經驗的數量.md`、`荒謬英雄.md`、`現象學與意義的賦予.md`
-- **建構橫向對照**（`comparisons/` 4 篇）：
-  - `卡謬-vs-齊克果-論荒謬與跳躍.md`
-  - `卡謬-vs-胡塞爾-論描述與本質賦予.md`
-  - `卡謬-vs-謝斯托夫與雅斯培-論理性極限與超越.md`
-  - `卡謬-vs-杜斯妥也夫斯基與基里洛夫-論邏輯自殺.md`
-- **撰寫初學者迷思問答**（`faq/` 2 篇）：
-  - `荒謬與虛無主義有何不同.md`
-  - `為什麼卡謬反對肉體自殺又歌頌薛西弗斯.md`
-- **生成互動式教學簡報**（`presentations/` 1 檔）：
-  - `薛西弗斯的神話-初學者五堂哲學課.html`
-- **更新索引**：全面更新 `index.md`，建立初學者雙向連結導覽地圖。
+- 處理 6 篇 raw 哲學文獻，萃取產出 `sources/`（6篇）、`concepts/`（8篇）、`comparisons/`（4篇）、`faq/`（2篇）。
+- 生成第一版教學簡報。
+
+---
+
+## [2026-11-23] refactor | 深度去 AI 感與智識風格重塑（去心靈雞湯化）
+- **核心調整目標**：因應反思回饋，徹底剃除「心靈雞湯、職場打卡、過度淺白」的 AI 感，回歸卡謬原著冷峻、嚴密且深刻的認識論論證。
+- **規範更新（AGENTS.md）**：明確禁止 pop-psychology，明定「深入淺出」是清晰梳理論證鏈與哲學矛盾，而非把哲學降級為心靈成長。
+- **概念頁與對照頁全面重寫**：
+  - 重寫 `concepts/荒謬.md`：著重世界的陌生化、時間作為死敵、理性飢渴與宇宙沉默的不可化約關係。
+  - 重寫 `concepts/肉體自殺.md`：剖析自殺作為口供（l'aveu）的邏輯漏洞，以及消滅見證者並非解答謎題的論證。
+  - 重寫 `concepts/哲學性自殺.md`：深入齊克果、謝斯托夫、雅斯培、胡塞爾如何將「理性的挫敗」調包為「神聖的超越」。
+  - 重寫 `concepts/反抗.md`、`荒謬自由.md`、`熱情與經驗的數量.md`、`荒謬英雄.md`：回歸無上訴（vivre sans appel）、死刑犯黎明、數量倫理與薛西弗斯下山清醒時分（l'heure de conscience）的原著深意。
+  - 重寫 `comparisons/卡謬-vs-齊克果-論荒謬與跳躍.md`：深入約伯之抗與信心跳躍的形上學斷裂。
+  - 重寫 `faq/荒謬與虛無主義有何不同.md`：從二戰歷史與絕對主義鄉愁剖析虛無主義的邏輯錯誤。
+- **HTML 簡報重構（presentations/ & index.html）**：
+  - 剔除職場小測驗，改為杜斯妥也夫斯基《群魔》中基里洛夫「人神邏輯自殺」的思想實驗推導。
+  - 升級為典雅沉靜的學術美感排版，保留四家哲學範式切換（卡謬、齊克果、虛無主義、沙特）與三大嚴肅哲學命題辨析。

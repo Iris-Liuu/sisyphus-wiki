@@ -3,46 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>薛西弗斯的神話：給哲學初學者的五堂存在課</title>
+  <title>《薛西弗斯的神話》導讀：在沉默的宇宙中清醒生存</title>
   <style>
     :root {
-      --bg: #0f141c;
-      --card-bg: rgba(26, 34, 48, 0.85);
-      --card-border: rgba(255, 255, 255, 0.1);
-      --accent: #e5a950;
-      --accent-glow: rgba(229, 169, 80, 0.25);
-      --text-main: #f0f4f8;
-      --text-muted: #94a3b8;
-      --accent-blue: #38bdf8;
-      --accent-red: #f43f5e;
-      --accent-green: #34d399;
+      --bg: #0c0f14;
+      --card-bg: rgba(20, 25, 34, 0.9);
+      --card-border: rgba(255, 255, 255, 0.12);
+      --accent: #d4a373;
+      --accent-muted: rgba(212, 163, 115, 0.18);
+      --text-main: #f1f5f9;
+      --text-sub: #94a3b8;
+      --text-dim: #64748b;
+      --accent-cyan: #38bdf8;
+      --accent-amber: #f59e0b;
+      --accent-rose: #f43f5e;
+      --font-serif: "Noto Serif TC", "Source Han Serif TC", Georgia, serif;
+      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans TC", sans-serif;
     }
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans TC", "PingFang TC", sans-serif;
+      font-family: var(--font-sans);
       background-color: var(--bg);
       background-image: 
-        radial-gradient(circle at 15% 20%, rgba(229, 169, 80, 0.08) 0%, transparent 40%),
-        radial-gradient(circle at 85% 80%, rgba(56, 189, 248, 0.08) 0%, transparent 40%);
+        radial-gradient(circle at 10% 10%, rgba(212, 163, 115, 0.05) 0%, transparent 50%),
+        radial-gradient(circle at 90% 90%, rgba(56, 189, 248, 0.04) 0%, transparent 50%);
       color: var(--text-main);
       min-height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       overflow-x: hidden;
-      line-height: 1.6;
+      line-height: 1.7;
     }
 
-    /* Top Progress Bar */
+    /* Top Progress Indicator */
     .progress-bar-container {
       width: 100%;
-      height: 4px;
+      height: 3px;
       background: rgba(255, 255, 255, 0.06);
       position: fixed;
       top: 0;
@@ -51,612 +50,589 @@
     }
     .progress-bar {
       height: 100%;
-      width: 11%;
-      background: linear-gradient(90deg, var(--accent), var(--accent-blue));
-      transition: width 0.35s ease;
+      width: 10%;
+      background: var(--accent);
+      transition: width 0.3s ease;
     }
 
-    /* Header Nav */
     header {
-      padding: 1.2rem 2rem;
+      padding: 1.2rem 2.5rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
       border-bottom: 1px solid var(--card-border);
-      backdrop-filter: blur(10px);
+      backdrop-filter: blur(12px);
     }
     .brand {
-      font-size: 1rem;
-      font-weight: 700;
-      letter-spacing: 1px;
+      font-family: var(--font-serif);
+      font-size: 1.05rem;
+      letter-spacing: 1.5px;
       color: var(--accent);
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
+      font-weight: 600;
     }
-    .slide-counter {
-      font-size: 0.9rem;
-      color: var(--text-muted);
+    .counter {
+      font-size: 0.85rem;
+      color: var(--text-dim);
       font-variant-numeric: tabular-nums;
+      letter-spacing: 1px;
     }
 
-    /* Main Container */
     main {
       flex: 1;
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 1.5rem;
-      max-width: 960px;
+      padding: 2rem 1.5rem;
+      max-width: 1000px;
       margin: 0 auto;
       width: 100%;
     }
 
-    /* Slide Card */
     .slide {
       display: none;
       width: 100%;
       background: var(--card-bg);
       border: 1px solid var(--card-border);
-      border-radius: 20px;
-      padding: 3rem 2.5rem;
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-      backdrop-filter: blur(16px);
-      animation: fadeIn 0.4s ease forwards;
+      border-radius: 16px;
+      padding: 3rem 2.8rem;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(20px);
+      animation: slideIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
     }
-    .slide.active {
-      display: block;
+    .slide.active { display: block; }
+
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
     }
 
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(12px) scale(0.99); }
-      to { opacity: 1; transform: translateY(0) scale(1); }
-    }
-
-    .badge {
-      display: inline-block;
-      padding: 0.3rem 0.8rem;
-      border-radius: 999px;
-      font-size: 0.8rem;
-      font-weight: 600;
-      letter-spacing: 0.5px;
-      background: rgba(229, 169, 80, 0.15);
+    .meta-tag {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
       color: var(--accent);
-      border: 1px solid rgba(229, 169, 80, 0.3);
-      margin-bottom: 1.2rem;
+      margin-bottom: 1rem;
+      display: inline-block;
     }
 
     h1 {
-      font-size: 2.4rem;
-      line-height: 1.25;
-      margin-bottom: 1rem;
-      font-weight: 800;
-      letter-spacing: -0.5px;
-    }
-    h2 {
-      font-size: 1.8rem;
-      margin-bottom: 1rem;
+      font-family: var(--font-serif);
+      font-size: 2.3rem;
+      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 1.2rem;
       color: #fff;
     }
+    h2 {
+      font-family: var(--font-serif);
+      font-size: 1.75rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: #f8fafc;
+      letter-spacing: -0.3px;
+    }
+    h3 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+    }
+
     p {
       color: #cbd5e1;
       font-size: 1.05rem;
       margin-bottom: 1.2rem;
     }
 
-    .quote-box {
-      border-left: 4px solid var(--accent);
-      padding: 1rem 1.4rem;
-      background: rgba(255, 255, 255, 0.03);
-      border-radius: 0 12px 12px 0;
+    .primary-quote {
+      font-family: var(--font-serif);
+      border-left: 3px solid var(--accent);
+      padding: 1.2rem 1.6rem;
+      background: rgba(212, 163, 115, 0.05);
+      border-radius: 0 8px 8px 0;
       margin: 1.5rem 0;
+      font-size: 1.15rem;
+      color: #f1f5f9;
       font-style: italic;
-      color: #e2e8f0;
-      font-size: 1.1rem;
+      line-height: 1.7;
     }
 
-    .card-grid {
+    .concept-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 1.2rem;
       margin: 1.5rem 0;
     }
-    .mini-card {
-      background: rgba(255, 255, 255, 0.04);
+    .concept-box {
+      background: rgba(255, 255, 255, 0.02);
       border: 1px solid var(--card-border);
-      border-radius: 12px;
-      padding: 1.2rem;
-      transition: all 0.25s ease;
+      border-radius: 10px;
+      padding: 1.4rem;
+      border-top: 2px solid var(--accent);
     }
-    .mini-card:hover {
+    .concept-box p {
+      font-size: 0.95rem;
+      margin-bottom: 0;
+      color: #94a3b8;
+    }
+
+    /* Comparison Table / Toggle */
+    .toggle-bar {
+      display: flex;
+      gap: 0.5rem;
+      margin: 1.2rem 0;
+      flex-wrap: wrap;
+    }
+    .toggle-chip {
+      padding: 0.5rem 1.1rem;
+      border-radius: 6px;
+      border: 1px solid var(--card-border);
+      background: rgba(255, 255, 255, 0.03);
+      color: var(--text-sub);
+      cursor: pointer;
+      font-size: 0.9rem;
+      font-family: var(--font-sans);
+      transition: all 0.2s;
+    }
+    .toggle-chip.active {
+      background: var(--accent);
+      color: #0c0f14;
+      font-weight: 600;
       border-color: var(--accent);
-      transform: translateY(-2px);
-      background: rgba(255, 255, 255, 0.06);
     }
-    .mini-card h3 {
-      font-size: 1.15rem;
-      margin-bottom: 0.5rem;
-      color: var(--accent-blue);
+    .panel-display {
+      background: rgba(0, 0, 0, 0.35);
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      padding: 1.5rem;
+      min-height: 160px;
     }
 
     /* Interactive Thought Experiment */
-    .options-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 0.8rem;
-      margin: 1.2rem 0;
-    }
-    .option-btn {
-      text-align: left;
-      padding: 1rem 1.4rem;
-      border-radius: 12px;
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid var(--card-border);
-      color: var(--text-main);
-      cursor: pointer;
-      font-size: 1rem;
-      transition: all 0.2s ease;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .option-btn:hover {
-      background: rgba(229, 169, 80, 0.15);
-      border-color: var(--accent);
-    }
-    .feedback-box {
-      margin-top: 1.2rem;
-      padding: 1.2rem;
-      border-radius: 12px;
-      background: rgba(56, 189, 248, 0.1);
-      border: 1px solid rgba(56, 189, 248, 0.3);
-      display: none;
-      animation: fadeIn 0.3s ease;
-    }
-
-    /* Viewpoint Toggle */
-    .toggle-nav {
-      display: flex;
-      gap: 0.5rem;
-      margin-bottom: 1.2rem;
-      flex-wrap: wrap;
-    }
-    .toggle-btn {
-      padding: 0.5rem 1rem;
-      border-radius: 8px;
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid var(--card-border);
-      color: var(--text-muted);
-      cursor: pointer;
-      font-size: 0.9rem;
-      font-weight: 600;
-      transition: all 0.2s ease;
-    }
-    .toggle-btn.active {
-      background: var(--accent);
-      color: #000;
-      border-color: var(--accent);
-    }
-    .view-content {
-      background: rgba(0, 0, 0, 0.25);
-      border-radius: 12px;
-      padding: 1.4rem;
-      border: 1px solid var(--card-border);
-      min-height: 140px;
-    }
-
-    /* Accordion / Foldable Quiz */
-    .accordion-item {
+    .dilemma-card {
+      background: rgba(255, 255, 255, 0.02);
       border: 1px solid var(--card-border);
       border-radius: 10px;
+      padding: 1.2rem;
+      margin-bottom: 0.8rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .dilemma-card:hover {
+      border-color: var(--accent);
+      background: rgba(212, 163, 115, 0.05);
+    }
+    .dilemma-card h4 {
+      font-size: 1.05rem;
+      color: #f8fafc;
+      margin-bottom: 0.3rem;
+    }
+    .dilemma-analysis {
+      margin-top: 1rem;
+      padding: 1.2rem;
+      background: rgba(56, 189, 248, 0.06);
+      border-left: 3px solid var(--accent-cyan);
+      border-radius: 0 8px 8px 0;
+      display: none;
+    }
+
+    /* Accordion */
+    .inquiry-group {
+      margin-top: 1.2rem;
+    }
+    .inquiry-row {
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
       margin-bottom: 0.8rem;
       overflow: hidden;
     }
-    .accordion-header {
-      padding: 1rem 1.2rem;
-      background: rgba(255, 255, 255, 0.04);
+    .inquiry-head {
+      padding: 1rem 1.3rem;
+      background: rgba(255, 255, 255, 0.03);
       cursor: pointer;
       font-weight: 600;
+      font-size: 0.98rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
       transition: background 0.2s;
     }
-    .accordion-header:hover {
-      background: rgba(255, 255, 255, 0.08);
-    }
-    .accordion-body {
-      padding: 1.2rem;
-      background: rgba(0, 0, 0, 0.2);
-      display: none;
-      color: #cbd5e1;
+    .inquiry-head:hover { background: rgba(255, 255, 255, 0.06); }
+    .inquiry-body {
+      padding: 1.2rem 1.4rem;
+      background: rgba(0, 0, 0, 0.25);
       border-top: 1px solid var(--card-border);
+      font-size: 0.95rem;
+      color: #cbd5e1;
+      display: none;
     }
 
-    /* Bottom Control Bar */
     footer {
-      padding: 1.2rem 2rem;
+      padding: 1.2rem 2.5rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
       border-top: 1px solid var(--card-border);
-      backdrop-filter: blur(10px);
+      backdrop-filter: blur(12px);
     }
-    .nav-buttons {
-      display: flex;
-      gap: 1rem;
-    }
-    .nav-btn {
-      padding: 0.6rem 1.4rem;
-      border-radius: 10px;
+    .ctrl-btn {
+      padding: 0.55rem 1.3rem;
+      border-radius: 6px;
       border: 1px solid var(--card-border);
-      background: rgba(255, 255, 255, 0.06);
+      background: rgba(255, 255, 255, 0.04);
       color: var(--text-main);
       cursor: pointer;
-      font-size: 0.95rem;
-      font-weight: 600;
-      transition: all 0.2s ease;
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
+      font-size: 0.9rem;
+      transition: all 0.2s;
     }
-    .nav-btn:hover:not(:disabled) {
+    .ctrl-btn:hover:not(:disabled) {
       background: var(--accent);
-      color: #000;
+      color: #0c0f14;
+      font-weight: 600;
       border-color: var(--accent);
     }
-    .nav-btn:disabled {
-      opacity: 0.3;
-      cursor: not-allowed;
-    }
+    .ctrl-btn:disabled { opacity: 0.25; cursor: not-allowed; }
 
-    @media (max-width: 640px) {
-      .slide { padding: 2rem 1.2rem; }
+    @media (max-width: 768px) {
+      .slide { padding: 2rem 1.4rem; }
       h1 { font-size: 1.8rem; }
       h2 { font-size: 1.4rem; }
-      header, footer { padding: 1rem; }
+      header, footer { padding: 1rem 1.2rem; }
     }
   </style>
 </head>
 <body>
 
-  <!-- Progress Bar -->
   <div class="progress-bar-container">
     <div class="progress-bar" id="progressBar"></div>
   </div>
 
-  <!-- Header -->
   <header>
-    <div class="brand">
-      <span>⛰️</span>
-      <span>薛西弗斯的神話 · 初學者哲學課</span>
-    </div>
-    <div class="slide-counter" id="slideCounter">1 / 9</div>
+    <div class="brand">ALBERT CAMUS · THE MYTH OF SISYPHUS</div>
+    <div class="counter" id="slideCounter">1 / 10</div>
   </header>
 
-  <!-- Main Slide Container -->
   <main>
 
-    <!-- Slide 1: Cover -->
+    <!-- Slide 1: Prolegomena -->
     <div class="slide active" data-slide="1">
-      <span class="badge">導言 · INTRO</span>
-      <h1>如果人生注定沒有神聖劇本，<br>我們該如何活下去？</h1>
-      <p style="font-size: 1.15rem; color: #94a3b8;">
-        阿爾貝·卡謬（Albert Camus）《薛西弗斯的神話》是一份給現代人的清醒生存指南。
-        它不灌心靈雞湯，也不教你避世逃避，而是要帶你直面生命最殘酷也最迷人的真相。
+      <span class="meta-tag">導言 · 哲學的核心提問</span>
+      <h1>判斷生命是否值得活：<br>對自殺問題的理性清算</h1>
+      <p>
+        阿爾貝·卡謬在1942年發表的《薛西弗斯的神話》，並非一本提供廉價慰藉的心靈指南，而是一場針對人類生存處境所進行的極其嚴密、冷峻的認識論探討。
       </p>
-      <div class="quote-box">
-        「真正嚴肅的哲學問題只有一個，那就是自殺。判斷生命是否值得活，就是回答了哲學的基本問題。」
+      <div class="primary-quote">
+        「真正嚴肅的哲學問題只有一個，那就是自殺。判斷生命是否值得活，就是回答了哲學的基本問題。其餘的——世界是否有三個維度、心智由幾個範疇構成——都只是之後的智力遊戲。」
       </div>
-      <p style="color: var(--accent);">👉 請使用鍵盤方向鍵 [→] 或點擊右下角按鈕開始探索</p>
+      <p style="color: var(--text-sub); font-size: 0.95rem;">
+        卡謬開宗明義劃清界線：如果哲學無法回應個人在面對冷酷現實時的求生理由，一切形上學體系皆是逃避。
+      </p>
     </div>
 
-    <!-- Slide 2: The Collapse of Scenery -->
+    <!-- Slide 2: Diagnosis of the Absurd -->
     <div class="slide" data-slide="2">
-      <span class="badge">第一課 · 覺醒</span>
-      <h2>舞台布景坍塌的瞬間：什麼是「荒謬」？</h2>
-      <p>想像你每天打卡通勤、上班、吃飯、下班、睡覺……星期一、二、三，日復一日。一切都像發條鐘般順理成章。</p>
-      <p>直到某天在擠滿人的捷運上，你心中突然冒出一個聲音：<strong>「我到底為什麼要這樣過？」</strong></p>
-      
-      <div class="card-grid">
-        <div class="mini-card">
-          <h3>🎭 舞台布景崩塌</h3>
-          <p>熟悉的生活世界突然變得像硬紙板一樣脆弱、陌生與怪異。</p>
+      <span class="meta-tag">第一章 · 認識論診斷</span>
+      <h2>荒謬的本質：人類渴求與宇宙沉默的對撞</h2>
+      <p>
+        卡謬精準地指出：**荒謬不是世界的內在屬性，也不是人類理智的單獨缺陷**。它是一種不可化約的「對稱關係」。
+      </p>
+
+      <div class="concept-grid">
+        <div class="concept-box">
+          <h3>主觀項：統一性的鄉愁</h3>
+          <p>人類心智天生具有「理性飢渴」——我們本能地渴望為萬物尋找理由、因果、道德秩序與終極目的。</p>
         </div>
-        <div class="mini-card">
-          <h3>🌌 宇宙的頑固沉默</h3>
-          <p>你渴望宇宙給你一個終極理由，但群星與大自然只回以冰冷的沉默。</p>
+        <div class="concept-box">
+          <h3>客觀項：不可理喻的沉默</h3>
+          <p>宇宙的物質本體是冷漠而斷裂的。山巒、星系與自然法則遵循著自身不可穿透的物理運行，不對人類命運提供任何回音。</p>
         </div>
-        <div class="mini-card">
-          <h3>⚡ 荒謬的本質</h3>
-          <p>荒謬不在於世界，也不在於你，而在於<strong>「渴望意義的人」撞上「沉默世界」時的火花</strong>。</p>
+        <div class="concept-box" style="border-top-color: var(--accent-cyan);">
+          <h3>交界點：荒謬（The Absurd）</h3>
+          <p>荒謬誕生於這兩者的劇烈摩擦。正如卡謬所言：「一旦抽離了其中任何一項，荒謬便不復存在。」</p>
         </div>
       </div>
     </div>
 
-    <!-- Slide 3: Three Paths -->
+    <!-- Slide 3: Critique of Leaps -->
     <div class="slide" data-slide="3">
-      <span class="badge">第二課 · 抉擇</span>
-      <h2>站在荒謬懸崖邊，你有三條路</h2>
-      <p>當你清醒地看見人生沒有上天安排的意義時，常人與哲學家通常會怎麼做？</p>
+      <span class="meta-tag">第二章 · 哲學性自殺批判</span>
+      <h2>懸崖邊的「跳躍」：存在主義者的智力退縮</h2>
+      <p>
+        在卡謬眼中，多數哲學家在診斷出「理性無法解釋世界」之後，因承受不了無依無靠的虛無，在終點處紛紛繳械：
+      </p>
 
-      <div class="card-grid">
-        <div class="mini-card" style="border-top: 3px solid var(--accent-red);">
-          <h3 style="color: var(--accent-red);">1. 肉體自殺（認輸）</h3>
-          <p><strong>做法</strong>：結束生命。<br>
-          <strong>卡謬點評</strong>：這是向荒謬舉白旗投降！你撕碎考卷退場，但難題並沒有被你解開。</p>
+      <div class="concept-grid">
+        <div class="concept-box">
+          <h3 style="color: var(--accent-amber);">齊克果（Kierkegaard）</h3>
+          <p><strong>信心跳躍</strong>：高呼「因其荒謬，故我信仰」。將理性的破產直接反轉為神的屬性，要求人向不可理解的神聖深淵徹底交出智性。</p>
         </div>
-        <div class="mini-card" style="border-top: 3px solid var(--accent-blue);">
-          <h3 style="color: var(--accent-blue);">2. 哲學性自殺（自欺）</h3>
-          <p><strong>做法</strong>：信上帝或迷信烏托邦（齊克果、胡塞爾）。<br>
-          <strong>卡謬點評</strong>：受不了懸崖邊的寒風，閉上眼睛幻想有神之手接住你，這是「心智閹割」。</p>
+        <div class="concept-box">
+          <h3 style="color: var(--accent-cyan);">胡塞爾（Husserl）</h3>
+          <p><strong>現象學泛神論</strong>：雖倡導「回到事物本身」，卻在每個短暫的現象背後硬造出永恆不滅的「抽象本質（Essences）」，復辟了形上偶像。</p>
         </div>
-        <div class="mini-card" style="border-top: 3px solid var(--accent-green);">
-          <h3 style="color: var(--accent-green);">3. 清醒反抗（英雄之路）</h3>
-          <p><strong>做法</strong>：雙腳站穩在懸崖邊，睜大眼睛盯著深淵，熱烈活在當下！<br>
-          <strong>卡謬點評</strong>：不求彼岸、不求神蹟，用一生的清醒給命運一記耳光！</p>
+        <div class="concept-box">
+          <h3 style="color: var(--accent-rose);">肉體自殺者的妥協</h3>
+          <p><strong>向荒謬自白</strong>：自願毀滅身體的人，在實踐中默認了「生命戰勝了我」。他沒有擊敗荒謬，只是消滅了提出抗議的證人。</p>
         </div>
       </div>
     </div>
 
-    <!-- Slide 4: Interactive Thought Experiment -->
+    <!-- Slide 4: Kirillov's Logic -->
     <div class="slide" data-slide="4">
-      <span class="badge">互動體驗 · 思想實驗室</span>
-      <h2>思想實驗：如果你深陷徒勞無功的困境</h2>
-      <p>你在公司接手了一個毫無前途、重複乏味、上級隨時可能喊停的專案，但你暫時無法離職。你會怎麼面對？</p>
-      
-      <div class="options-grid">
-        <button class="option-btn" onclick="showFeedback('A')">
-          <span>選項 A：祈禱並催眠自己「這一定是老天爺給我的神聖考驗，背後有大意義」</span>
-          <span>👉</span>
-        </button>
-        <button class="option-btn" onclick="showFeedback('B')">
-          <span>選項 B：覺得一切都毫無意義，徹底躺平擺爛或自暴自棄</span>
-          <span>👉</span>
-        </button>
-        <button class="option-btn" onclick="showFeedback('C')">
-          <span>選項 C：明知這專案成不了大事，但把每一行代碼或文案雕琢得精湛無比，當作自己意志的展示</span>
-          <span>👉</span>
-        </button>
+      <span class="meta-tag">思想實驗 · 極限命題推導</span>
+      <h2>基里洛夫的「邏輯自殺」：杜斯妥也夫斯基的極限測試</h2>
+      <p>卡謬在書中深入剖析了《群魔》中工程師基里洛夫的形上學邏輯：</p>
+
+      <div class="dilemma-card" onclick="toggleAnalysis('kirillov')">
+        <h4>⚖️ 基里洛夫的三段論推演（點擊檢視卡謬的批判）：</h4>
+        <p style="font-size: 0.95rem; color: #94a3b8; margin: 0;">
+          「若神存在，一切皆為神意；若神不存在，我就是自己的神。<br>
+          凡人因恐懼死亡而發明神祇；唯有無緣無故自我了斷，才能向全宇宙證明我的絕對自主（Self-will）。」
+        </p>
       </div>
 
-      <div class="feedback-box" id="feedbackBox"></div>
+      <div class="dilemma-analysis" id="kirillovAnalysis">
+        <h4 style="color: var(--accent-cyan); margin-bottom: 0.4rem;">卡謬的解構與洞察：</h4>
+        <p style="margin: 0; color: #cbd5e1; font-size: 0.95rem;">
+          卡謬肯定基里洛夫洞察了「無神世界中自主意志的嚴肅性」，但他指出了其悲劇性的謬誤：
+          <strong>基里洛夫為了「成為神」而自殺，但他依然在追求某種神聖的超越性。</strong><br>
+          真正的荒謬人放棄了成神的幻覺。人的尊嚴不在於用一顆子彈證明意志，而在於**在凡俗、有限且註定死亡的肉身歲月中，堅持清醒地活到底**。
+        </p>
+      </div>
     </div>
 
-    <!-- Slide 5: Multi-Thinker Comparison Toggle -->
+    <!-- Slide 5: Multi-Stance Toggle -->
     <div class="slide" data-slide="5">
-      <span class="badge">第三課 · 觀點交鋒</span>
-      <h2>群雄對決：面對「推石頭」的徒勞宿命</h2>
-      <p>點擊下方按鈕，看看各派哲學家會給推石頭的薛西弗斯什麼建議：</p>
+      <span class="meta-tag">第三章 · 哲學立場分歧</span>
+      <h2>面對宇宙沉默的四種哲學範式</h2>
+      <p>點選下方立場，檢視西方思想在面對「無神聖目的」時的分水嶺：</p>
 
-      <div class="toggle-nav">
-        <button class="toggle-btn active" onclick="switchView('camus', this)">阿爾貝·卡謬</button>
-        <button class="toggle-btn" onclick="switchView('kierkegaard', this)">齊克果（信仰派）</button>
-        <button class="toggle-btn" onclick="switchView('husserl', this)">胡塞爾（現象學）</button>
-        <button class="toggle-btn" onclick="switchView('nihilism', this)">虛無主義者</button>
+      <div class="toggle-bar">
+        <button class="toggle-chip active" onclick="selectStance('camus', this)">阿爾貝·卡謬（荒謬反抗）</button>
+        <button class="toggle-chip" onclick="selectStance('kierkegaard', this)">索倫·齊克果（信仰飛躍）</button>
+        <button class="toggle-chip" onclick="selectStance('nihilism', this)">古典虛無主義（主動放棄）</button>
+        <button class="toggle-chip" onclick="selectStance('sartre', this)">讓-保羅·沙特（存在先於本質）</button>
       </div>
 
-      <div class="view-content" id="viewContent">
-        <h3 style="color: var(--accent); margin-bottom: 0.5rem;">卡謬的主張：蔑視諸神，享受奮鬥</h3>
-        <p>「別指望石頭哪天會留在山頂。當你走下山腳時，看著陽光照亮這片大地，你親手觸碰這顆屬於你的巨石。你的清醒就是對諸神最殘酷的嘲諷——推向頂峰的奮鬥本身，就足以充實人心。」</p>
+      <div class="panel-display" id="stanceContent">
+        <h3 style="color: var(--accent);">卡謬：拒絕上訴的清醒張力（Vivre sans appel）</h3>
+        <p>既不向超驗神祇祈求赦免（拒絕哲學性自殺），也不藉由毀滅自身來消滅問題（拒絕肉體自殺）。將荒謬視為不可癒合的傷口，以持續存在的清醒蔑視冷漠命運。</p>
       </div>
     </div>
 
-    <!-- Slide 6: Absurd Freedom and Passion -->
+    <!-- Slide 6: The Three Consequences -->
     <div class="slide" data-slide="6">
-      <span class="badge">第四課 · 實踐法則</span>
-      <h2>荒謬人的生活特權：自由與熱情</h2>
-      <p>沒有天堂的考評表，我們是不是就可以隨波逐流？卡謬給出了顛覆性的回答：</p>
+      <span class="meta-tag">第四章 · 實踐的三大推論</span>
+      <h2>從荒謬推導出的生存三原則</h2>
+      <p>在確認了世界無客觀目的之後，卡謬嚴格推導出荒謬人的三大倫理後果：</p>
 
-      <div class="card-grid">
-        <div class="mini-card">
-          <h3 style="color: var(--accent);">🕊️ 荒謬自由</h3>
-          <p>不再被「我一生必須達成某個偉大目標」綁架。就像死刑犯在黎明前看日出，每一秒當下都無比純粹。</p>
+      <div class="concept-grid">
+        <div class="concept-box">
+          <h3>1. 反抗（Revolt）</h3>
+          <p>人與自身晦暗命運的恆常對抗。承認自身必被死亡摧毀，卻拒絕伴隨而來的心理屈從。反抗賦予了生命不可讓渡的價值。</p>
         </div>
-        <div class="mini-card">
-          <h3 style="color: var(--accent);">🔥 數量勝於品質</h3>
-          <p>不是及時行樂，而是<strong>意識的飽滿度</strong>。活得最多的，不是活了一百年卻麻木度日的人，而是每一刻都極致清醒的人。</p>
+        <div class="concept-box">
+          <h3>2. 自由（Freedom）</h3>
+          <p>解除對「彼岸與未來」的奴役。如同死刑犯在黎明前所體驗的純粹感官，在沒有永恆審判的前提下，收回對當下的完全支配權。</p>
         </div>
-        <div class="mini-card">
-          <h3 style="color: var(--accent);">🎭 荒謬人典範</h3>
-          <p><strong>演員</strong>在兩小時內全心活過一個靈魂；<strong>創作者</strong>明知畫作終會褪色，依然揮灑顏料，以創造向虛無宣戰。</p>
+        <div class="concept-box">
+          <h3>3. 熱情（Passion）</h3>
+          <p><strong>數量倫理學</strong>：既然沒有形上學法庭裁定何種生活更高貴，活得充實的標準不在於外部的「品質」，而在於意識最高清醒度下的「體驗密度」。</p>
         </div>
       </div>
     </div>
 
-    <!-- Slide 7: Sisyphus Happy -->
+    <!-- Slide 7: Three Absurd Characters -->
     <div class="slide" data-slide="7">
-      <span class="badge">第五課 · 終極意象</span>
-      <h2>我們必須想像薛西弗斯是快樂的</h2>
-      <p>希臘神話中，薛西弗斯因熱愛塵世、藐視諸神與死神，被判永遠將巨石推上山頂，巨石又隨即滾落。</p>
-      
-      <div class="quote-box" style="font-size: 1.2rem; border-color: var(--accent-green);">
-        「這個神話之所以悲壯，是因為它的主人公具有清醒的意識。如果他每走一步都有成功的希望支持著他，他的痛苦何在？」
-      </div>
+      <span class="meta-tag">第五章 · 具象化範式</span>
+      <h2>荒謬人的具象原型：短暫中的絕對投入</h2>
+      <p>卡謬不給出抽象的德行規範，而是透過三種純粹的「意識範式」呈現荒謬實踐：</p>
 
-      <p>卡謬定格在**薛西弗斯轉身走下山腳的那幾分鐘**。他雙手沾滿石屑，額頭淌著汗水，但他知道：這顆巨石是他的，這座山是他的。沒有任何一個神明能再令他屈服。</p>
-      <p style="text-align: right; font-weight: 700; color: var(--accent); font-size: 1.2rem;">
-        —— 一切皆好。他就是命運的主人。
-      </p>
+      <div class="concept-grid">
+        <div class="concept-box">
+          <h3 style="color: var(--text-main);">情聖唐璜（Don Juan）</h3>
+          <p>深知沒有「一生一世」的永恆誓言，但他將全副真誠投入每一次短暫的相遇。他不是放縱色慾，而是拒絕把愛意神聖化、抽象化。</p>
+        </div>
+        <div class="concept-box">
+          <h3 style="color: var(--text-main);">舞台演員（The Actor）</h3>
+          <p>在兩小時內全身心活過暴君或聖徒的命運。幕布落下，一切煙消雲散。他在最短暫的時間跨度內，窮盡了多元肉身存在的可能。</p>
+        </div>
+        <div class="concept-box">
+          <h3 style="color: var(--text-main);">藝術創作者（The Creator）</h3>
+          <p><strong>最高的荒謬行動</strong>：明知文明終將瓦解、雕塑終成灰燼，創作者放棄「解釋」真理，只以具體的形體向荒原宣示人類意識的存在。</p>
+        </div>
+      </div>
     </div>
 
-    <!-- Slide 8: Interactive Beginner FAQ -->
+    <!-- Slide 8: The Myth of Sisyphus -->
     <div class="slide" data-slide="8">
-      <span class="badge">互動檢驗 · 迷思破解</span>
-      <h2>初學者快問快答（點擊題目看卡謬的回答）</h2>
+      <span class="meta-tag">終章 · 神話本體</span>
+      <h2>走下山腳的「意識清醒時分」（L'heure de conscience）</h2>
+      <p>
+        諸神判決薛西弗斯將巨石推上山頂，巨石隨即滾落，永無休止。諸神確信無望的勞役是世間最殘酷的懲罰。
+      </p>
 
-      <div class="accordion-item">
-        <div class="accordion-header" onclick="toggleAccordion(this)">
-          <span>Q1: 人生沒有意義，難道不是直接去自殺最快解脫嗎？</span>
-          <span>▼</span>
-        </div>
-        <div class="accordion-body">
-          <strong>卡謬回答：</strong>自殺是向荒謬舉手投降。荒謬誕生於「你」與「世界」的對撞；你若死了，對抗就結束了，命運大獲全勝。真正的勇者會活下去，用「清醒地活著」來持續打臉這冷漠的世界！
-        </div>
+      <div class="primary-quote" style="border-left-color: var(--accent-cyan);">
+        「正是這段折返之路、這段短暫的停頓，吸引了我……這個如痛苦般準確復歸的喘息時刻，就是意識的清醒時刻。在離開山頂、逐步走回諸神巢穴的每個瞬間，他超越了自己的命運。他比他的巨石更強大。」
       </div>
 
-      <div class="accordion-item">
-        <div class="accordion-header" onclick="toggleAccordion(this)">
-          <span>Q2: 這跟虛無主義（覺得做什麼都無所謂、一切都是空）有什麼差？</span>
-          <span>▼</span>
-        </div>
-        <div class="accordion-body">
-          <strong>卡謬回答：</strong>差得遠了！虛無主義因為「沒有永恆意義」而走向絕望與厭世；荒謬主義卻因為「沒有永恆枷鎖」而走向熱烈與反抗！每一杯熱咖啡、每一次真誠的對話，因為短暫，所以才無比珍貴。
-        </div>
-      </div>
+      <p style="color: #cbd5e1;">
+        當薛西弗斯完全洞悉自己的徒勞，不再抱持任何「諸神或許會開恩」的幻覺時，諸神的懲罰便徹底宣告失效。<br>
+        <strong>巨石與山巒不再是刑具，而是他以肉身親自丈量的領地。</strong>
+      </p>
+    </div>
 
-      <div class="accordion-item">
-        <div class="accordion-header" onclick="toggleAccordion(this)">
-          <span>Q3: 每天上班推巨石那麼累，我怎麼可能像薛西弗斯一樣快樂？</span>
-          <span>▼</span>
+    <!-- Slide 9: Philosophical FAQ -->
+    <div class="slide" data-slide="9">
+      <span class="meta-tag">命題辨析 · 關鍵誤區澄清</span>
+      <h2>初學者對卡謬論證的三大核心疑問</h2>
+
+      <div class="inquiry-group">
+        <div class="inquiry-row">
+          <div class="inquiry-head" onclick="toggleInquiry(this)">
+            <span>Q1：荒謬主義是否只是換了包裝的虛無主義（Nihilism）？</span>
+            <span>＋</span>
+          </div>
+          <div class="inquiry-body">
+            <strong>核心分水嶺：</strong>虛無主義從「客觀無意義」推導出「一切皆無價值、生存不值得繼續」的消極絕望；卡謬恰恰相反，他證明了**「正是因為沒有先驗意義的束縛，人的每一次清醒抗爭與此世經驗才獲得了絕對的尊嚴」**。荒謬主義是戰勝虛無主義的唯一理性路徑。
+          </div>
         </div>
-        <div class="accordion-body">
-          <strong>卡謬回答：</strong>痛苦往往來自於你幻想「哪天老闆會發大慈悲，或者只要我熬過去就能一勞永逸」。當你認清生活的本質就是推石頭，放下虛妄的委屈感，專注於當下你的呼吸、技巧與每一次使力，你便奪回了生活的支配權。
+
+        <div class="inquiry-row">
+          <div class="inquiry-head" onclick="toggleInquiry(this)">
+            <span>Q2：卡謬反對自殺，難道是在鼓吹生物性的苟且偷生？</span>
+            <span>＋</span>
+          </div>
+          <div class="inquiry-body">
+            <strong>並非苟且：</strong>卡謬將「反對自殺」視為一場高傲的智力決鬥。自殺是向無意義的世界簽署投降書；而活下去——在清楚知曉終點是死亡的狀態下活下去——是讓命運永遠面對一個不肯低頭的對手。
+          </div>
+        </div>
+
+        <div class="inquiry-row">
+          <div class="inquiry-head" onclick="toggleInquiry(this)">
+            <span>Q3：為何卡謬斷言「我們必須想像薛西弗斯是快樂的」？</span>
+            <span>＋</span>
+          </div>
+          <div class="inquiry-body">
+            <strong>悲劇性的崇高：</strong>這種快樂不等於世俗的安逸或狂喜，而是伊底帕斯王在歷經災難後宣稱「一切皆好」的寧靜。當人接納了命運的沉重並將其視為自己的造作，推向頂峰的奮鬥本身便足以充實一顆人心。
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- Slide 9: Conclusion -->
-    <div class="slide" data-slide="9">
-      <span class="badge">結語 · 實踐</span>
-      <h1>明天早晨鬧鐘響起時，<br>你就是薛西弗斯。</h1>
-      <p style="font-size: 1.15rem;">
-        荒謬不是哲學家書房裡的文字遊戲，而是你我每天清晨面對鏡子時的抉擇。
+    <!-- Slide 10: Conclusion -->
+    <div class="slide" data-slide="10">
+      <span class="meta-tag">結語 · 存在的重構</span>
+      <h1>以凡人之軀，<br>承擔沒有彼岸的尊嚴</h1>
+      <p style="font-size: 1.1rem; color: #94a3b8; margin-top: 1.2rem;">
+        《薛西弗斯的神話》不是一聲絕望的嘆息，而是一篇熱烈昂揚的人性宣言。
       </p>
-      <div class="card-grid" style="margin-top: 1.5rem;">
-        <div class="mini-card" style="text-align: center;">
-          <h3 style="color: var(--accent-red);">不逃跑</h3>
-          <p>拒絕物理與精神的自殺</p>
+      <div class="concept-grid" style="margin-top: 1.5rem;">
+        <div class="concept-box" style="border-top-color: var(--accent-rose);">
+          <h3 style="color: var(--accent-rose);">不自欺（No Leap）</h3>
+          <p>拒絕向超驗信仰與未經證實的來世妥協</p>
         </div>
-        <div class="mini-card" style="text-align: center;">
-          <h3 style="color: var(--accent-blue);">不盲從</h3>
-          <p>看透生活的重複與局限</p>
+        <div class="concept-box" style="border-top-color: var(--accent-amber);">
+          <h3 style="color: var(--accent-amber);">不投降（No Surrender）</h3>
+          <p>拒絕將自我毀滅視為解決荒謬的手段</p>
         </div>
-        <div class="mini-card" style="text-align: center;">
-          <h3 style="color: var(--accent-green);">熱烈反抗</h3>
-          <p>把日常的每一天推向巔峰</p>
+        <div class="concept-box" style="border-top-color: var(--accent-cyan);">
+          <h3 style="color: var(--accent-cyan);">清醒在場（Lucid Living）</h3>
+          <p>在巨石與山巒之間，寫下屬於自己的全部真實</p>
         </div>
       </div>
-      <p style="text-align: center; margin-top: 2rem; color: var(--text-muted); font-size: 0.95rem;">
-        🎉 恭喜完成《薛西弗斯的神話》初學者導覽！回到 Wiki 閱讀更深度的概念與文獻對照。
+      <p style="margin-top: 2rem; color: var(--accent); font-family: var(--font-serif); font-size: 1.1rem; text-align: center;">
+        「推向頂峰的奮鬥本身，就足以充實一顆人心。我們必須想像薛西弗斯是快樂的。」
       </p>
     </div>
 
   </main>
 
-  <!-- Footer Nav -->
   <footer>
-    <div style="font-size: 0.85rem; color: var(--text-muted);">
-      提示：可用鍵盤方向鍵 <kbd>←</kbd> / <kbd>→</kbd> 切換
+    <div style="font-size: 0.85rem; color: var(--text-dim);">
+      導覽控制：方向鍵 <kbd>←</kbd> / <kbd>→</kbd> 切換章節
     </div>
-    <div class="nav-buttons">
-      <button class="nav-btn" id="prevBtn" onclick="prevSlide()" disabled>← 上一頁</button>
-      <button class="nav-btn" id="nextBtn" onclick="nextSlide()">下一頁 →</button>
+    <div style="display: flex; gap: 0.8rem;">
+      <button class="ctrl-btn" id="prevBtn" onclick="stepSlide(-1)" disabled>← 上一章</button>
+      <button class="ctrl-btn" id="nextBtn" onclick="stepSlide(1)">下一章 →</button>
     </div>
   </footer>
 
   <script>
-    let currentSlide = 1;
-    const totalSlides = 9;
+    let current = 1;
+    const total = 10;
 
-    function updateSlide() {
-      document.querySelectorAll('.slide').forEach(slide => {
-        slide.classList.remove('active');
-        if (parseInt(slide.getAttribute('data-slide')) === currentSlide) {
-          slide.classList.add('active');
-        }
+    function update() {
+      document.querySelectorAll('.slide').forEach(s => {
+        s.classList.toggle('active', parseInt(s.dataset.slide) === current);
       });
-
-      document.getElementById('slideCounter').innerText = `${currentSlide} / ${totalSlides}`;
-      document.getElementById('progressBar').style.width = `${(currentSlide / totalSlides) * 100}%`;
-
-      document.getElementById('prevBtn').disabled = (currentSlide === 1);
-      document.getElementById('nextBtn').disabled = (currentSlide === totalSlides);
+      document.getElementById('slideCounter').innerText = `${current} / ${total}`;
+      document.getElementById('progressBar').style.width = `${(current / total) * 100}%`;
+      document.getElementById('prevBtn').disabled = (current === 1);
+      document.getElementById('nextBtn').disabled = (current === total);
     }
 
-    function nextSlide() {
-      if (currentSlide < totalSlides) {
-        currentSlide++;
-        updateSlide();
+    function stepSlide(delta) {
+      const next = current + delta;
+      if (next >= 1 && next <= total) {
+        current = next;
+        update();
       }
     }
 
-    function prevSlide() {
-      if (currentSlide > 1) {
-        currentSlide--;
-        updateSlide();
-      }
-    }
-
-    // Keyboard Navigation
     document.addEventListener('keydown', (e) => {
-      if (e.key === 'ArrowRight' || e.key === ' ') {
-        nextSlide();
-      } else if (e.key === 'ArrowLeft') {
-        prevSlide();
-      }
+      if (e.key === 'ArrowRight' || e.key === ' ') stepSlide(1);
+      if (e.key === 'ArrowLeft') stepSlide(-1);
     });
 
-    // Slide 4 Thought Experiment
-    function showFeedback(choice) {
-      const fb = document.getElementById('feedbackBox');
-      fb.style.display = 'block';
-      if (choice === 'A') {
-        fb.innerHTML = `<h4 style="color: var(--accent-blue); margin-bottom: 0.3rem;">齊克果式選擇（哲學性自殺）：</h4>
-        <p style="margin: 0;">你選擇了「跳躍」！為了安撫受挫的心靈，你編織了一個冥冥之中的神聖劇本。卡謬會搖搖頭告訴你：這是在用虛妄的幻想催眠自己，你扼殺了自己的清醒理智。</p>`;
-      } else if (choice === 'B') {
-        fb.innerHTML = `<h4 style="color: var(--accent-red); margin-bottom: 0.3rem;">虛無主義式選擇（認輸妥協）：</h4>
-        <p style="margin: 0;">你走向了消極虛無！既然沒有意義，何必認真？卡謬說：這正是最軟弱的誤解。宇宙的沉默不該成為你懶惰與崩潰的藉口，你把支配權拱手讓給了荒謬。</p>`;
-      } else if (choice === 'C') {
-        fb.innerHTML = `<h4 style="color: var(--accent-green); margin-bottom: 0.3rem;">卡謬式選擇（清醒反抗）：</h4>
-        <p style="margin: 0;">🎉 滿分！你正是當代的薛西弗斯！你清楚知道專案可能徒勞無功，但你依然把熱情燃燒在每一個當下的細節中。這不是為了討好老闆，而是向冷酷的世界宣示：我的專業與熱情，無人能奪走！</p>`;
-      }
+    function toggleAnalysis(id) {
+      const box = document.getElementById(id + 'Analysis');
+      box.style.display = (box.style.display === 'block') ? 'none' : 'block';
     }
 
-    // Slide 5 Thinker Viewpoint Switcher
-    const viewpoints = {
+    const stances = {
       camus: {
-        title: "卡謬的主張：蔑視諸神，享受奮鬥",
+        title: "卡謬：拒絕上訴的清醒張力（Vivre sans appel）",
         color: "var(--accent)",
-        desc: "「別指望石頭哪天會留在山頂。當你走下山腳時，看著陽光照亮這片大地，你親手觸碰這顆屬於你的巨石。你的清醒就是對諸神最殘酷的嘲諷——推向頂峰的奮鬥本身，就足以充實人心。」"
+        text: "既不向超驗神祇祈求赦免（拒絕哲學性自殺），也不藉由毀滅自身來消滅問題（拒絕肉體自殺）。將荒謬視為不可癒合的傷口，以持續存在的清醒蔑視冷漠命運。"
       },
       kierkegaard: {
-        title: "齊克果的主張：把徒勞化作信仰的跳躍",
-        color: "var(--accent-blue)",
-        desc: "「既然凡人推不上山頂，這正證明了人力的有限！我們應當承認自己的卑微，在不可思議的荒謬中向神呼求，相信神在彼岸預備了超乎常理的奇蹟。」（卡謬批判：這是典型的哲學性自殺）"
-      },
-      husserl: {
-        title: "胡塞爾的主張：描述推石頭的純粹本質",
-        color: "var(--accent-green)",
-        desc: "「別去爭論神存在與否了！讓我們專注於分析：手握巨石時的觸感、肌肉收縮的本質、重力與空間的幾何關係……」（卡謬批判：描述很好，但別偷偷在石頭後面安插一個永恆本質的神殿）"
+        title: "齊克果：縱身躍入不可言說的神聖荒謬",
+        color: "var(--accent-amber)",
+        text: "承認世間無理與存在的絕望，但認定這正是理性必須謙卑獻祭的關口。藉由信仰的縱身一躍，將凡人的荒謬轉化為上帝不可思議的奧秘。（卡謬批判：這是典型的智力閹割與哲學性自殺）"
       },
       nihilism: {
-        title: "虛無主義者的主張：反正會掉下來，推它幹嘛？",
-        color: "var(--accent-red)",
-        desc: "「既然終點是徒勞，推石頭就是在自討苦吃。躺在山腳發呆或直接撞死在石頭上算了。」（卡謬批判：這是將『無終極意義』錯誤等同於『當下無價值』的懦弱悲觀）"
+        title: "古典虛無主義：從客觀無目的推導出主觀虛無",
+        color: "var(--accent-rose)",
+        text: "認定世界既然缺乏神聖審判與終極價值，一切追求便盡歸徒勞，從而走向冷漠、毀滅或道德無政府狀態。（卡謬批判：混淆了『無終極意義』與『當下無價值』，本質上是向荒謬投降）"
+      },
+      sartre: {
+        title: "沙特：存在先於本質，主動構築意義",
+        color: "var(--accent-cyan)",
+        text: "人類被判為自由。沒有先天設定的人性，人透過自主選擇創造自身的本質，承擔絕對的焦慮與責任。（卡謬區別：卡謬更關注感官體驗與荒謬關係的張力，拒絕構建過於繁複的本體論哲學體系）"
       }
     };
 
-    function switchView(thinker, btn) {
-      document.querySelectorAll('.toggle-btn').forEach(b => b.classList.remove('active'));
+    function selectStance(key, btn) {
+      document.querySelectorAll('.toggle-chip').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
-      const v = viewpoints[thinker];
-      const container = document.getElementById('viewContent');
-      container.innerHTML = `
-        <h3 style="color: ${v.color}; margin-bottom: 0.5rem;">${v.title}</h3>
-        <p>${v.desc}</p>
+      const s = stances[key];
+      const panel = document.getElementById('stanceContent');
+      panel.innerHTML = `
+        <h3 style="color: ${s.color}; margin-bottom: 0.5rem;">${s.title}</h3>
+        <p style="color: #cbd5e1; font-size: 0.95rem; margin: 0;">${s.text}</p>
       `;
     }
 
-    // Slide 8 Accordion
-    function toggleAccordion(header) {
-      const body = header.nextElementSibling;
-      const isExpanded = body.style.display === 'block';
-      document.querySelectorAll('.accordion-body').forEach(b => b.style.display = 'none');
-      document.querySelectorAll('.accordion-header span:last-child').forEach(s => s.innerText = '▼');
-      if (!isExpanded) {
+    function toggleInquiry(head) {
+      const body = head.nextElementSibling;
+      const isShow = body.style.display === 'block';
+      document.querySelectorAll('.inquiry-body').forEach(b => b.style.display = 'none');
+      document.querySelectorAll('.inquiry-head span:last-child').forEach(s => s.innerText = '＋');
+      if (!isShow) {
         body.style.display = 'block';
-        header.querySelector('span:last-child').innerText = '▲';
+        head.querySelector('span:last-child').innerText = '－';
       }
     }
   </script>
